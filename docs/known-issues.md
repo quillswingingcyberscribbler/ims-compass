@@ -76,8 +76,6 @@ The publication-metadata review was completed on 27 October 2026. The visible Pu
 
 All 34 worksheets per edition, 74,555 formulas per edition and all saved cell values match the original sources. Sheet protection and data validations are unchanged. Regression and scenario baselines are reproduced. Current public-copy hashes are recorded in [validation/manifest.json](../validation/manifest.json), and the review decision is documented in [validation/publication-metadata.json](../validation/publication-metadata.json). Full native Excel acceptance remains a separate release requirement.
 
-## RIGHTS-01 — Confirm standards-derived catalogue redistribution rights
+## RIGHTS-01 — Standards-derived catalogue rights — resolved
 
-Before public distribution, confirm that standards-derived catalogue wording is original paraphrase, otherwise permitted for redistribution, or removed/replaced. This includes the catalogue's 193 external references and any ISO/IEC-derived wording. Citing a standard does not by itself grant redistribution rights for its text.
-
-The author's MIT/CC BY 4.0 allocation applies only to original material. The review must be recorded before changing repository visibility to public. See [LICENSE-STATUS.md](../LICENSE-STATUS.md) and [docs/methodology.md](methodology.md).
+The catalogue structure review was completed on 28 October 2026. The 193 references consist of identifiers, source links and short original topics of 9–47 characters, not full ISO/IEC requirement text. The `K-...` controls are project-specific building blocks. The author's MIT/CC BY 4.0 allocation applies to original material; cited standards and third-party works retain their terms. See [third-party-rights-review.md](../validation/third-party-rights-review.md). Future additions of verbatim or substantially similar standard text require a renewed review.

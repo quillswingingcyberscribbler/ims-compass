@@ -52,7 +52,7 @@ Keep the corrected demo expectation of 24 tasks. The clean-start begins with zer
 
 After the repairs, rerun the standard-library checker and all changed-input scenarios. A stable candidate must pass the intended behavior checks without a known-defect allowance. Preserve the old review evidence as history and create new results for the changed sources.
 
-Complete native Microsoft Excel editing, recalculation, save/close/reopen, dropdown, protection, navigation and visual/print acceptance. Record the exact Excel build and platform. The MIT/CC BY 4.0 allocation and publication-metadata review are complete. Before public visibility, confirm the standards-derived catalogue redistribution rights described in LICENSE-STATUS.md. Keep the manifest, version, citation, change log and release-status record aligned with the public copies.
+Complete native Microsoft Excel editing, recalculation, save/close/reopen, dropdown, protection, navigation and visual/print acceptance. Record the exact Excel build and platform. The MIT/CC BY 4.0 allocation, publication-metadata review and third-party catalogue structure review are complete. Keep the manifest, version, citation, change log and release-status record aligned with the public copies.
 
 Minor English label cleanup can be included in the same reviewed change, but should not obscure the functional differences. Resolve the issues in both languages and both starting states.
 
@@ -60,6 +60,6 @@ Minor English label cleanup can be included in the same reviewed change, but sho
 
 The publication-metadata review was completed on 27 October 2026. Public classifications were retained; document properties, `lastModifiedBy` and absolute local paths were removed directly from the OOXML packages. All formulas, saved cell values, sheet protection and data validations match the original sources. Regression and scenario baselines are reproduced. Current identities are recorded in `validation/manifest.json` and `validation/publication-metadata.json`.
 
-## Confirm standards-derived catalogue redistribution rights
+## Standards-derived catalogue redistribution rights — completed
 
-Before public distribution, confirm that standards-derived catalogue wording is original paraphrase, otherwise permitted for redistribution, or removed/replaced. Review the catalogue's 193 external references and any ISO/IEC-derived wording. The author's MIT/CC BY 4.0 allocation applies only to original material and does not certify third-party redistribution rights. Record the review before changing repository visibility to public.
+The catalogue structure review was completed on 28 October 2026. The 193 references use identifiers, source links and short original topics of 9–47 characters rather than full ISO/IEC requirement text. The `K-...` controls are project-specific building blocks. See `validation/third-party-rights-review.md`. Future additions of verbatim or substantially similar standard text require a renewed review.

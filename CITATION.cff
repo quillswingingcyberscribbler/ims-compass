@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite this project and identify the exact workbook version, language and edition used. This package is a reviewed prerelease."
+type: software
+title: "IMS Compass"
+repository-code: "https://github.com/quillswingingcyberscribbler/ims-compass"
+authors:
+  - family-names: "Muhlert"
+    given-names: "Matthias"
+    orcid: "https://orcid.org/0009-0006-3640-7779"
+version: "0.1.0-review.2"
+date-released: "2026-10-28"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: "An Excel workbench connecting information-security and AI management systems, scope, evidence, risks, actions and decisions."
+keywords:
+  - "isms"
+  - "ai-governance"
+  - "information-security"
+  - "risk-management"
+  - "excel"
+  - "management-systems"

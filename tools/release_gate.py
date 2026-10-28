@@ -14,7 +14,7 @@ def evidence_file(key):
     return isinstance(value, str) and bool(value) and (root / value).is_file()
 
 
-evidence_keys = ('native_excel_evidence', 'licensing_evidence', 'publication_metadata_evidence')
+evidence_keys = ('native_excel_evidence', 'licensing_evidence', 'publication_metadata_evidence', 'third_party_rights_evidence')
 ready = (status.get('stable_release_ready') is True
          and status.get('native_excel_verified') is True
          and status.get('licensing_confirmed') is True

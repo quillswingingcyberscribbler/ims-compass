@@ -39,11 +39,11 @@
   "publication_metadata_evidence": "validation/publication-metadata.json",
   "public_copy_preparation_date": "2026-10-27",
   "licensing_scope": "Author original material: workbooks and code under MIT; documentation, figures, mascot and examples under CC BY 4.0. Third-party standards-derived catalogue wording requires separate rights confirmation.",
-  "third_party_rights_reviewed": false,
-  "public_visibility_recommended": false,
+  "third_party_rights_reviewed": true,
+  "public_visibility_recommended": true,
   "workbook_change_scope": "Direct OOXML publication metadata cleanup only; all worksheets, formulas, saved cell values, sheet protection and data validations match the original sources.",
   "pending_release_requirements": [
-    "Native Microsoft Excel edit/recalculate/save/reopen and supported interaction acceptance.",
-    "Confirm redistribution rights for standards-derived catalogue wording before public release."
-  ]
+    "Native Microsoft Excel edit/recalculate/save/reopen and supported interaction acceptance."
+  ],
+  "third_party_rights_evidence": "validation/third-party-rights-review.md"
 }

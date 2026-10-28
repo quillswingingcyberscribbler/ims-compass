@@ -72,5 +72,6 @@
   },
   "native_office_metadata_cycle_completed": false,
   "full_native_excel_acceptance_completed": false,
-  "third_party_rights_reviewed": false
+  "third_party_rights_reviewed": true,
+  "third_party_rights_evidence": "validation/third-party-rights-review.md"
 }

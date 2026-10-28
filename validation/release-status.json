@@ -1,0 +1,49 @@
+{
+  "package_status": "reviewed-prerelease",
+  "package_version": "0.1.0-review.2",
+  "review_date": "2026-10-23",
+  "source_versions": "IMS v2.6.1: English and German, demonstration and cleared starting edition",
+  "stable_release_ready": false,
+  "native_excel_verified": false,
+  "licensing_confirmed": true,
+  "workbook_changes_applied": true,
+  "blockers": [
+    "IMS-013: rule validation I8:I157 is static, so valid new rules and duplicate rules are not handled reliably.",
+    "IMS-014: coverage validation L8:L1007 is static, so changed invalid records can remain accepted and new valid rows are omitted.",
+    "IMS-005: the first object row has no live validator in either language.",
+    "IMS-008: governance completion does not propagate invalid method/mandate states or unreleased evidence.",
+    "IMS-006: clean-start retains stale validation labels and dangling template references.",
+    "IMS-007: embedded zero/blank and clean-edition task-count instructions need correction."
+  ],
+  "resolved_prior_findings": [
+    "IMS-001 English active-rule literal",
+    "IMS-002 English target Yes/No literals",
+    "IMS-003 English report category literals",
+    "IMS-004 localized open-status formulas",
+    "IMS-010 core version metadata"
+  ],
+  "verification": {
+    "static_cache_assertions": 84,
+    "static_cache_passed": 62,
+    "static_cache_failed": 22,
+    "source_formula_scenarios": 46,
+    "scenario_behavior_passed": 26,
+    "scenario_behavior_failed": 20,
+    "evaluator_errors": 0,
+    "baseline_formula_values_compared": 298220
+  },
+  "repository_preparation_date": "2026-10-26",
+  "native_excel_evidence": "validation/native-excel-acceptance.md",
+  "licensing_evidence": "LICENSE-STATUS.md",
+  "publication_metadata_reviewed": true,
+  "publication_metadata_evidence": "validation/publication-metadata.json",
+  "public_copy_preparation_date": "2026-10-27",
+  "licensing_scope": "Author original material: workbooks and code under MIT; documentation, figures, mascot and examples under CC BY 4.0. Third-party standards-derived catalogue wording requires separate rights confirmation.",
+  "third_party_rights_reviewed": false,
+  "public_visibility_recommended": false,
+  "workbook_change_scope": "Direct OOXML publication metadata cleanup only; all worksheets, formulas, saved cell values, sheet protection and data validations match the original sources.",
+  "pending_release_requirements": [
+    "Native Microsoft Excel edit/recalculate/save/reopen and supported interaction acceptance.",
+    "Confirm redistribution rights for standards-derived catalogue wording before public release."
+  ]
+}

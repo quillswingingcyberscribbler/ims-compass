@@ -1,0 +1,14 @@
+{
+  "suggested_name": "ims-compass",
+  "description": "An Excel workbench connecting information-security and AI management systems, scope, evidence, risks, actions and decisions.",
+  "topics": [
+    "isms",
+    "ai-governance",
+    "information-security",
+    "risk-management",
+    "excel",
+    "management-systems"
+  ],
+  "initial_visibility": "private",
+  "has_issues": true
+}

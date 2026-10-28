@@ -1,0 +1,15 @@
+{
+  "package_status": "reviewed-prerelease",
+  "package_version": "0.1.0-review.1",
+  "source_versions": "IMS Compass v2.6 (both supplied copies)",
+  "stable_release_ready": false,
+  "native_excel_verified": false,
+  "licensing_confirmed": false,
+  "workbook_changes_applied": false,
+  "blockers": [
+    "Coverage and target formulas still compare German literals with English inputs.",
+    "Report control count and foundational statuses are wrong.",
+    "Clean-Start contains the same populated examples as EN.",
+    "Object-row validation and embedded test expectations need correction."
+  ]
+}

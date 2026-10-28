@@ -1,0 +1,124 @@
+{
+  "review_date": "2026-10-23",
+  "engine": "LibreOfficeDev 26.8.0.0.alpha0 2c87e51eeaa2b413ff4ae097b2705eea1995d8e5",
+  "method": "Headless XLSX import, recalculation and export of disposable copies; source files retained unchanged. Numeric comparison tolerance rel_tol=1e-12, abs_tol=1e-9. This is not native Microsoft Excel acceptance.",
+  "warnings": [
+    "Fontconfig reported no writable cache directories; no visual verification is claimed."
+  ],
+  "files": [
+    {
+      "file": "IMS-Compass-v2.6.1-EN.xlsx",
+      "source_sha256": "3a2de9546205e06285936449a694eccbbe9c5a1f83ce927af9261f0a729d6492",
+      "source_formula_cells": 74555,
+      "recalculated_formula_cells": 74555,
+      "cached_values_exactly_equal": 74543,
+      "numeric_serialization_only_differences": 12,
+      "substantive_differences": [],
+      "recalculated_errors": [],
+      "rounding_examples": [
+        {
+          "sheet": "Home",
+          "cell": "AL18",
+          "source": "46235.416666666657",
+          "recalculated": "46235.4166666667"
+        },
+        {
+          "sheet": "Home",
+          "cell": "AL20",
+          "source": "46296.416666666657",
+          "recalculated": "46296.4166666667"
+        },
+        {
+          "sheet": "Home",
+          "cell": "AL21",
+          "source": "46296.458333333343",
+          "recalculated": "46296.4583333333"
+        },
+        {
+          "sheet": "Home",
+          "cell": "AF23",
+          "source": "46296.416666666657",
+          "recalculated": "46296.4166666667"
+        },
+        {
+          "sheet": "Home",
+          "cell": "AL31",
+          "source": "46297.458333333343",
+          "recalculated": "46297.4583333333"
+        }
+      ],
+      "public_copy_sha256": "a2a16d8b77bae0ddef4a693059bb3d18ad92743f22b014d4e0567d40549af696",
+      "public_copy_saved_values_match_original": true
+    },
+    {
+      "file": "IMS-Compass-v2.6.1-EN-Clean-Start.xlsx",
+      "source_sha256": "65a1b976dac295576af43b47052efd55dfdadeccebff46dc6a346ffba50dfd67",
+      "source_formula_cells": 74555,
+      "recalculated_formula_cells": 74555,
+      "cached_values_exactly_equal": 74555,
+      "numeric_serialization_only_differences": 0,
+      "substantive_differences": [],
+      "recalculated_errors": [],
+      "rounding_examples": [],
+      "public_copy_sha256": "c14cca406fbc308bee022b72555aa51d7969b0dca23deb2d0b2efc180f71cc77",
+      "public_copy_saved_values_match_original": true
+    },
+    {
+      "file": "IMS-Kompass-v2.6.1.xlsx",
+      "source_sha256": "c1cb04de4173c88e836a63cdd00e9d249a97b53aa0232ecbd958219e83136c6b",
+      "source_formula_cells": 74555,
+      "recalculated_formula_cells": 74555,
+      "cached_values_exactly_equal": 74543,
+      "numeric_serialization_only_differences": 12,
+      "substantive_differences": [],
+      "recalculated_errors": [],
+      "rounding_examples": [
+        {
+          "sheet": "Start",
+          "cell": "AL18",
+          "source": "46235.416666666657",
+          "recalculated": "46235.4166666667"
+        },
+        {
+          "sheet": "Start",
+          "cell": "AL20",
+          "source": "46296.416666666657",
+          "recalculated": "46296.4166666667"
+        },
+        {
+          "sheet": "Start",
+          "cell": "AL21",
+          "source": "46296.458333333343",
+          "recalculated": "46296.4583333333"
+        },
+        {
+          "sheet": "Start",
+          "cell": "AF23",
+          "source": "46296.416666666657",
+          "recalculated": "46296.4166666667"
+        },
+        {
+          "sheet": "Start",
+          "cell": "AL31",
+          "source": "46297.458333333343",
+          "recalculated": "46297.4583333333"
+        }
+      ],
+      "public_copy_sha256": "d99a3b65a7fbf8daf175c7cf299e71e85046d31d1d009d37ab99aa8a9c444b19",
+      "public_copy_saved_values_match_original": true
+    },
+    {
+      "file": "IMS-Kompass-v2.6.1-Leerstart.xlsx",
+      "source_sha256": "32623b4088400e559f1c45fa866927f02bc9df0f413949b1de14980baedec2b9",
+      "source_formula_cells": 74555,
+      "recalculated_formula_cells": 74555,
+      "cached_values_exactly_equal": 74555,
+      "numeric_serialization_only_differences": 0,
+      "substantive_differences": [],
+      "recalculated_errors": [],
+      "rounding_examples": [],
+      "public_copy_sha256": "6aab33eeda23dab14ab6e15b89557361ad2eab90684b10c17167b373c0c5fad0",
+      "public_copy_saved_values_match_original": true
+    }
+  ]
+}

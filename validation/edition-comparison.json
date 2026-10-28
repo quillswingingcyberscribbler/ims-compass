@@ -1,0 +1,174 @@
+{
+  "en-reset": {
+    "removed_nonempty_constants": 1677,
+    "formula_changes": [
+      {
+        "sheet": "Instructions",
+        "cells": [
+          "B8"
+        ]
+      }
+    ],
+    "changed_standard_validations": []
+  },
+  "de-reset": {
+    "removed_nonempty_constants": 1677,
+    "formula_changes": [
+      {
+        "sheet": "Anleitung",
+        "cells": [
+          "B8"
+        ]
+      }
+    ],
+    "changed_standard_validations": []
+  },
+  "demo-language": {
+    "explicit_formula_pairs_checked": 63568,
+    "formula_presence_differences": 0,
+    "shared_formula_metadata_differences_excluding_calc_flags": 0,
+    "formula_structure_differences": 0,
+    "ambiguous_translations": 0,
+    "numeric_cell_differences": 6
+  },
+  "clean-language": {
+    "explicit_formula_pairs_checked": 63568,
+    "formula_presence_differences": 0,
+    "shared_formula_metadata_differences_excluding_calc_flags": 0,
+    "formula_structure_differences": 0,
+    "ambiguous_translations": 0,
+    "numeric_cell_differences": 6
+  },
+  "validation_gaps": {
+    "en-demo": [
+      {
+        "sheet": "Coverage",
+        "column": "L",
+        "rows": [
+          8,
+          1007
+        ],
+        "formula_count": 0,
+        "missing_count": 1000
+      },
+      {
+        "sheet": "CoverageRules",
+        "column": "I",
+        "rows": [
+          8,
+          157
+        ],
+        "formula_count": 0,
+        "missing_count": 150
+      },
+      {
+        "sheet": "Objects",
+        "column": "K",
+        "rows": [
+          8,
+          82
+        ],
+        "formula_count": 74,
+        "missing_count": 1
+      }
+    ],
+    "en-clean": [
+      {
+        "sheet": "Coverage",
+        "column": "L",
+        "rows": [
+          8,
+          1007
+        ],
+        "formula_count": 0,
+        "missing_count": 1000
+      },
+      {
+        "sheet": "CoverageRules",
+        "column": "I",
+        "rows": [
+          8,
+          157
+        ],
+        "formula_count": 0,
+        "missing_count": 150
+      },
+      {
+        "sheet": "Objects",
+        "column": "K",
+        "rows": [
+          8,
+          82
+        ],
+        "formula_count": 74,
+        "missing_count": 1
+      }
+    ],
+    "de-demo": [
+      {
+        "sheet": "Deckung",
+        "column": "L",
+        "rows": [
+          8,
+          1007
+        ],
+        "formula_count": 0,
+        "missing_count": 1000
+      },
+      {
+        "sheet": "Deckungsregeln",
+        "column": "I",
+        "rows": [
+          8,
+          157
+        ],
+        "formula_count": 0,
+        "missing_count": 150
+      },
+      {
+        "sheet": "Objekte",
+        "column": "K",
+        "rows": [
+          8,
+          82
+        ],
+        "formula_count": 74,
+        "missing_count": 1
+      }
+    ],
+    "de-clean": [
+      {
+        "sheet": "Deckung",
+        "column": "L",
+        "rows": [
+          8,
+          1007
+        ],
+        "formula_count": 0,
+        "missing_count": 1000
+      },
+      {
+        "sheet": "Deckungsregeln",
+        "column": "I",
+        "rows": [
+          8,
+          157
+        ],
+        "formula_count": 0,
+        "missing_count": 150
+      },
+      {
+        "sheet": "Objekte",
+        "column": "K",
+        "rows": [
+          8,
+          82
+        ],
+        "formula_count": 74,
+        "missing_count": 1
+      }
+    ]
+  },
+  "review_date": "2026-10-23",
+  "method": "Read-only OOXML comparison: matching formula locations/shared-formula metadata, normalized formula structure, paired literals and reset regions; not proof of semantic correctness or native Excel behavior."
+}

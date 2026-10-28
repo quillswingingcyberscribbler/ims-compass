@@ -1,0 +1,62 @@
+{
+  "package_version": "0.1.0-review.2",
+  "review_date": "2026-10-27",
+  "files": [
+    {
+      "path": "workbooks/IMS-Compass-v2.6.1-EN.xlsx",
+      "source_filename": "IMS-Compass-v2.6.1-EN.xlsx",
+      "source_version": "2.6.1",
+      "language": "en",
+      "edition": "demonstration",
+      "sha256": "a2a16d8b77bae0ddef4a693059bb3d18ad92743f22b014d4e0567d40549af696",
+      "size_bytes": 3128892,
+      "content_change": "Direct OOXML publication metadata cleanup: absolute local path and lastModifiedBy removed; Public sensitivity label retained. All 34 worksheets, 74555 formulas, saved cell values, sheet protection and data validations match the original source.",
+      "previous_source_sha256": "3a2de9546205e06285936449a694eccbbe9c5a1f83ce927af9261f0a729d6492",
+      "public_copy_filename": "IMS-Compass-v2.6.1-EN.xlsx",
+      "verification_date": "2026-10-27",
+      "verification": "All 34 worksheets, 74555 formulas and saved cell values match the original source; the documented regression and scenario baselines are reproduced."
+    },
+    {
+      "path": "workbooks/IMS-Compass-v2.6.1-EN-Clean-Start.xlsx",
+      "source_filename": "IMS-Compass-v2.6.1-EN-Clean-Start.xlsx",
+      "source_version": "2.6.1",
+      "language": "en",
+      "edition": "clean-start",
+      "sha256": "c14cca406fbc308bee022b72555aa51d7969b0dca23deb2d0b2efc180f71cc77",
+      "size_bytes": 3095714,
+      "content_change": "Direct OOXML publication metadata cleanup: absolute local path and lastModifiedBy removed; Public sensitivity label retained. All 34 worksheets, 74555 formulas, saved cell values, sheet protection and data validations match the original source.",
+      "previous_source_sha256": "65a1b976dac295576af43b47052efd55dfdadeccebff46dc6a346ffba50dfd67",
+      "public_copy_filename": "IMS-Compass-v2.6.1-EN-Clean-Start.xlsx",
+      "verification_date": "2026-10-27",
+      "verification": "All 34 worksheets, 74555 formulas and saved cell values match the original source; the documented regression and scenario baselines are reproduced."
+    },
+    {
+      "path": "workbooks/IMS-Kompass-v2.6.1.xlsx",
+      "source_filename": "IMS-Kompass-v2.6.1.xlsx",
+      "source_version": "2.6.1",
+      "language": "de",
+      "edition": "demonstration",
+      "sha256": "d99a3b65a7fbf8daf175c7cf299e71e85046d31d1d009d37ab99aa8a9c444b19",
+      "size_bytes": 3141966,
+      "content_change": "Direct OOXML publication metadata cleanup: absolute local path and lastModifiedBy removed; Public sensitivity label retained. All 34 worksheets, 74555 formulas, saved cell values, sheet protection and data validations match the original source.",
+      "previous_source_sha256": "c1cb04de4173c88e836a63cdd00e9d249a97b53aa0232ecbd958219e83136c6b",
+      "public_copy_filename": "IMS-Kompass-v2.6.1.xlsx",
+      "verification_date": "2026-10-27",
+      "verification": "All 34 worksheets, 74555 formulas and saved cell values match the original source; the documented regression and scenario baselines are reproduced."
+    },
+    {
+      "path": "workbooks/IMS-Kompass-v2.6.1-Leerstart.xlsx",
+      "source_filename": "IMS-Kompass-v2.6.1-Leerstart.xlsx",
+      "source_version": "2.6.1",
+      "language": "de",
+      "edition": "clean-start",
+      "sha256": "6aab33eeda23dab14ab6e15b89557361ad2eab90684b10c17167b373c0c5fad0",
+      "size_bytes": 3107735,
+      "content_change": "Direct OOXML publication metadata cleanup: absolute local path and lastModifiedBy removed; Public sensitivity label retained. All 34 worksheets, 74555 formulas, saved cell values, sheet protection and data validations match the original source.",
+      "previous_source_sha256": "32623b4088400e559f1c45fa866927f02bc9df0f413949b1de14980baedec2b9",
+      "public_copy_filename": "IMS-Kompass-v2.6.1-Leerstart.xlsx",
+      "verification_date": "2026-10-27",
+      "verification": "All 34 worksheets, 74555 formulas and saved cell values match the original source; the documented regression and scenario baselines are reproduced."
+    }
+  ]
+}

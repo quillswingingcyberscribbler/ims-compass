@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "prepared_date": "2026-10-26",
+  "review_completed_date": "2026-10-27",
+  "status": "reviewed",
+  "source_artifacts_modified": true,
+  "scope": "Direct OOXML publication-metadata cleanup of all four public workbook copies.",
+  "finding": "All four source workbooks contain Microsoft Information Protection label records. Their visible classification is Public.",
+  "decision": "Retain the Public sensitivity labels. Remove document properties, lastModifiedBy and absolute local paths. Preserve all formulas, saved cell values, sheet protection and data validations.",
+  "label_and_site_identifiers_reproduced": false,
+  "files": [
+    "workbooks/IMS-Compass-v2.6.1-EN-Clean-Start.xlsx",
+    "workbooks/IMS-Compass-v2.6.1-EN.xlsx",
+    "workbooks/IMS-Kompass-v2.6.1-Leerstart.xlsx",
+    "workbooks/IMS-Kompass-v2.6.1.xlsx"
+  ],
+  "author_contact_details_present": false,
+  "current_public_copies": {
+    "workbooks/IMS-Compass-v2.6.1-EN-Clean-Start.xlsx": {
+      "sha256": "c14cca406fbc308bee022b72555aa51d7969b0dca23deb2d0b2efc180f71cc77",
+      "size_bytes": 3095714,
+      "previous_source_sha256": "65a1b976dac295576af43b47052efd55dfdadeccebff46dc6a346ffba50dfd67",
+      "cleanup_method": "Direct OOXML metadata removal without an Excel resave",
+      "worksheets_unchanged": 34,
+      "formulas_unchanged": 74555,
+      "saved_cell_values_unchanged": true,
+      "sheet_protection_unchanged": true,
+      "data_validations_unchanged": true,
+      "verification": "Documented regression and scenario baselines reproduced; no formula errors"
+    },
+    "workbooks/IMS-Compass-v2.6.1-EN.xlsx": {
+      "sha256": "a2a16d8b77bae0ddef4a693059bb3d18ad92743f22b014d4e0567d40549af696",
+      "size_bytes": 3128892,
+      "previous_source_sha256": "3a2de9546205e06285936449a694eccbbe9c5a1f83ce927af9261f0a729d6492",
+      "cleanup_method": "Direct OOXML metadata removal without an Excel resave",
+      "worksheets_unchanged": 34,
+      "formulas_unchanged": 74555,
+      "saved_cell_values_unchanged": true,
+      "sheet_protection_unchanged": true,
+      "data_validations_unchanged": true,
+      "verification": "Documented regression and scenario baselines reproduced; no formula errors"
+    },
+    "workbooks/IMS-Kompass-v2.6.1-Leerstart.xlsx": {
+      "sha256": "6aab33eeda23dab14ab6e15b89557361ad2eab90684b10c17167b373c0c5fad0",
+      "size_bytes": 3107735,
+      "previous_source_sha256": "32623b4088400e559f1c45fa866927f02bc9df0f413949b1de14980baedec2b9",
+      "cleanup_method": "Direct OOXML metadata removal without an Excel resave",
+      "worksheets_unchanged": 34,
+      "formulas_unchanged": 74555,
+      "saved_cell_values_unchanged": true,
+      "sheet_protection_unchanged": true,
+      "data_validations_unchanged": true,
+      "verification": "Documented regression and scenario baselines reproduced; no formula errors"
+    },
+    "workbooks/IMS-Kompass-v2.6.1.xlsx": {
+      "sha256": "d99a3b65a7fbf8daf175c7cf299e71e85046d31d1d009d37ab99aa8a9c444b19",
+      "size_bytes": 3141966,
+      "previous_source_sha256": "c1cb04de4173c88e836a63cdd00e9d249a97b53aa0232ecbd958219e83136c6b",
+      "cleanup_method": "Direct OOXML metadata removal without an Excel resave",
+      "worksheets_unchanged": 34,
+      "formulas_unchanged": 74555,
+      "saved_cell_values_unchanged": true,
+      "sheet_protection_unchanged": true,
+      "data_validations_unchanged": true,
+      "verification": "Documented regression and scenario baselines reproduced; no formula errors"
+    }
+  },
+  "completion": {
+    "reviewed_by": "Matthias Muhlert",
+    "review_date": "2026-10-27",
+    "evidence_notes": "Absolute local paths were removed directly from the OOXML packages. All 34 worksheets per edition, 74555 formulas per edition and all saved cell values match the original sources. Sheet protection and data validations are unchanged. Regression and scenario baselines are reproduced. Technical label/site identifiers are not reproduced in this record."
+  },
+  "native_office_metadata_cycle_completed": false,
+  "full_native_excel_acceptance_completed": false,
+  "third_party_rights_reviewed": false
+}

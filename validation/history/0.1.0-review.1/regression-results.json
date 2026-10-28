@@ -1,0 +1,607 @@
+{
+  "file": "IMS-Compass-v2.6-EN.xlsx",
+  "sha256": "20ea1613ed602d832cf1e5e46b8a3b015540f0290b37a79ffbdf24945f63f663",
+  "method": "Read-only independent input reconciliation plus saved-result checks; no native Excel engine executed by this script.",
+  "passed": 7,
+  "failed": 9,
+  "known_failures": 9,
+  "checks": [
+    {
+      "id": "file_no_cached_errors",
+      "description": "Saved formula-error cells",
+      "passed": true,
+      "known_defect": false,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "id": "file_no_macro_or_external_workbook",
+      "description": "No VBA or external-workbook dependencies",
+      "passed": true,
+      "known_defect": false,
+      "actual": {
+        "vba": false,
+        "external_workbooks": false
+      },
+      "expected": {
+        "vba": false,
+        "external_workbooks": false
+      }
+    },
+    {
+      "id": "coverage_target_counts",
+      "description": "Active rules enumerate the current applicable targets",
+      "passed": false,
+      "known_defect": true,
+      "actual": [
+        {
+          "cell": "CoverageRules!J8",
+          "rule": "REG-001",
+          "actual": 0.0,
+          "expected": 1,
+          "targets": [
+            "S-010"
+          ]
+        },
+        {
+          "cell": "CoverageRules!J9",
+          "rule": "REG-002",
+          "actual": 0.0,
+          "expected": 1,
+          "targets": [
+            "S-010"
+          ]
+        },
+        {
+          "cell": "CoverageRules!J10",
+          "rule": "REG-003",
+          "actual": 0.0,
+          "expected": 1,
+          "targets": [
+            "S-010"
+          ]
+        },
+        {
+          "cell": "CoverageRules!J11",
+          "rule": "REG-004",
+          "actual": 0.0,
+          "expected": 2,
+          "targets": [
+            "S-020",
+            "S-021"
+          ]
+        },
+        {
+          "cell": "CoverageRules!J12",
+          "rule": "REG-005",
+          "actual": 0.0,
+          "expected": 1,
+          "targets": [
+            "S-031"
+          ]
+        },
+        {
+          "cell": "CoverageRules!J13",
+          "rule": "REG-006",
+          "actual": 0.0,
+          "expected": 1,
+          "targets": [
+            "S-031"
+          ]
+        },
+        {
+          "cell": "CoverageRules!J14",
+          "rule": "REG-007",
+          "actual": 0.0,
+          "expected": 1,
+          "targets": [
+            "S-031"
+          ]
+        },
+        {
+          "cell": "CoverageRules!J16",
+          "rule": "REG-009",
+          "actual": 0.0,
+          "expected": 1,
+          "targets": [
+            "S-031"
+          ]
+        },
+        {
+          "cell": "CoverageRules!J17",
+          "rule": "REG-010",
+          "actual": 0.0,
+          "expected": 1,
+          "targets": [
+            "S-031"
+          ]
+        },
+        {
+          "cell": "CoverageRules!J18",
+          "rule": "REG-011",
+          "actual": 0.0,
+          "expected": 1,
+          "targets": [
+            "S-010"
+          ]
+        },
+        {
+          "cell": "CoverageRules!J19",
+          "rule": "REG-012",
+          "actual": 0.0,
+          "expected": 1,
+          "targets": [
+            "S-010"
+          ]
+        },
+        {
+          "cell": "CoverageRules!J20",
+          "rule": "REG-013",
+          "actual": 0.0,
+          "expected": 1,
+          "targets": [
+            "S-010"
+          ]
+        }
+      ],
+      "expected": {
+        "total_targets": 13
+      }
+    },
+    {
+      "id": "coverage_missing_assignments",
+      "description": "Overview includes applicable objects without a valid coverage record",
+      "passed": false,
+      "known_defect": true,
+      "actual": 0.0,
+      "expected": {
+        "count": 1,
+        "missing": [
+          {
+            "rule": "REG-004",
+            "object": "S-021"
+          }
+        ]
+      }
+    },
+    {
+      "id": "target_coverage_selected_rule",
+      "description": "TargetCoverage exposes all expected targets for its selected rule",
+      "passed": false,
+      "known_defect": true,
+      "actual": [],
+      "expected": [
+        "S-020",
+        "S-021"
+      ]
+    },
+    {
+      "id": "report_control_count",
+      "description": "Report control total agrees with the standard catalogue",
+      "passed": false,
+      "known_defect": true,
+      "actual": 0.0,
+      "expected": 93
+    },
+    {
+      "id": "open_foundation_status",
+      "description": "An Open foundation is reported as Still open",
+      "passed": false,
+      "known_defect": true,
+      "actual": [
+        {
+          "input": "ISMS-Foundations!C31",
+          "output": "ISMS-Foundations!C33",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C41",
+          "output": "ISMS-Foundations!C43",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C51",
+          "output": "ISMS-Foundations!C53",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C61",
+          "output": "ISMS-Foundations!C63",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C71",
+          "output": "ISMS-Foundations!C73",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C86",
+          "output": "ISMS-Foundations!C88",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C96",
+          "output": "ISMS-Foundations!C98",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C106",
+          "output": "ISMS-Foundations!C108",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C116",
+          "output": "ISMS-Foundations!C118",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C126",
+          "output": "ISMS-Foundations!C128",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C136",
+          "output": "ISMS-Foundations!C138",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C146",
+          "output": "ISMS-Foundations!C148",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C161",
+          "output": "ISMS-Foundations!C163",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C171",
+          "output": "ISMS-Foundations!C173",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C181",
+          "output": "ISMS-Foundations!C183",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C191",
+          "output": "ISMS-Foundations!C193",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C201",
+          "output": "ISMS-Foundations!C203",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C211",
+          "output": "ISMS-Foundations!C213",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C221",
+          "output": "ISMS-Foundations!C223",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C231",
+          "output": "ISMS-Foundations!C233",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C246",
+          "output": "ISMS-Foundations!C248",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C256",
+          "output": "ISMS-Foundations!C258",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C266",
+          "output": "ISMS-Foundations!C268",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C276",
+          "output": "ISMS-Foundations!C278",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C286",
+          "output": "ISMS-Foundations!C288",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C296",
+          "output": "ISMS-Foundations!C298",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C306",
+          "output": "ISMS-Foundations!C308",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C316",
+          "output": "ISMS-Foundations!C318",
+          "actual": "Review selection"
+        },
+        {
+          "input": "ISMS-Foundations!C326",
+          "output": "ISMS-Foundations!C328",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C30",
+          "output": "AI-Supplements!C36",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C42",
+          "output": "AI-Supplements!C48",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C54",
+          "output": "AI-Supplements!C60",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C66",
+          "output": "AI-Supplements!C72",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C78",
+          "output": "AI-Supplements!C84",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C94",
+          "output": "AI-Supplements!C100",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C106",
+          "output": "AI-Supplements!C112",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C118",
+          "output": "AI-Supplements!C124",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C130",
+          "output": "AI-Supplements!C136",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C142",
+          "output": "AI-Supplements!C148",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C154",
+          "output": "AI-Supplements!C160",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C166",
+          "output": "AI-Supplements!C172",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C182",
+          "output": "AI-Supplements!C188",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C194",
+          "output": "AI-Supplements!C200",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C206",
+          "output": "AI-Supplements!C212",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C218",
+          "output": "AI-Supplements!C224",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C230",
+          "output": "AI-Supplements!C236",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C242",
+          "output": "AI-Supplements!C248",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C254",
+          "output": "AI-Supplements!C260",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C266",
+          "output": "AI-Supplements!C272",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C282",
+          "output": "AI-Supplements!C288",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C294",
+          "output": "AI-Supplements!C300",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C306",
+          "output": "AI-Supplements!C312",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C318",
+          "output": "AI-Supplements!C324",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C330",
+          "output": "AI-Supplements!C336",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C342",
+          "output": "AI-Supplements!C348",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C354",
+          "output": "AI-Supplements!C360",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C366",
+          "output": "AI-Supplements!C372",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C378",
+          "output": "AI-Supplements!C384",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C396",
+          "output": "AI-Supplements!C398",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C406",
+          "output": "AI-Supplements!C408",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C416",
+          "output": "AI-Supplements!C418",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C426",
+          "output": "AI-Supplements!C428",
+          "actual": "Review selection"
+        },
+        {
+          "input": "AI-Supplements!C436",
+          "output": "AI-Supplements!C438",
+          "actual": "Review selection"
+        }
+      ],
+      "expected": []
+    },
+    {
+      "id": "objects_live_validation",
+      "description": "Object validation is formula-driven for populated records",
+      "passed": false,
+      "known_defect": true,
+      "actual": [
+        "Objects!K8"
+      ],
+      "expected": []
+    },
+    {
+      "id": "example_m-005",
+      "description": "Example M-005 closure result",
+      "passed": true,
+      "known_defect": false,
+      "actual": "Effectively closed",
+      "expected": "Effectively closed"
+    },
+    {
+      "id": "example_m-007",
+      "description": "Example M-007 closure result",
+      "passed": true,
+      "known_defect": false,
+      "actual": "Effectively closed",
+      "expected": "Effectively closed"
+    },
+    {
+      "id": "example_m-002",
+      "description": "Example M-002 closure result",
+      "passed": true,
+      "known_defect": false,
+      "actual": "Closure incomplete",
+      "expected": "Closure incomplete"
+    },
+    {
+      "id": "example_matching_finding",
+      "description": "Matching finding V-007 is accepted as closed",
+      "passed": true,
+      "known_defect": false,
+      "actual": "Closure confirmed",
+      "expected": "Closure confirmed"
+    },
+    {
+      "id": "zero_vs_blank_measurement",
+      "description": "Measured zero and missing measurement remain distinguishable",
+      "passed": true,
+      "known_defect": false,
+      "actual": {
+        "zero": "Target value reached",
+        "blank": "Measurement open"
+      },
+      "expected": {
+        "zero": "Target value reached",
+        "blank": "Measurement open"
+      }
+    },
+    {
+      "id": "release_zero_example_references",
+      "description": "Embedded zero-versus-blank test points to the actual sample records",
+      "passed": false,
+      "known_defect": true,
+      "actual": {
+        "procedure": "Compare Z-001 (measured 0) with Z-00X (no measurement).",
+        "proof": "Objectives!P8"
+      },
+      "expected": {
+        "records": [
+          "Z-002",
+          "Z-004"
+        ],
+        "proof_cells": [
+          "Objectives!P10",
+          "Objectives!P11"
+        ]
+      }
+    },
+    {
+      "id": "release_check_task_count",
+      "description": "Embedded filter-reset expectation matches the shipped demo",
+      "passed": false,
+      "known_defect": true,
+      "actual": 24.0,
+      "expected": 23
+    },
+    {
+      "id": "distinct_clean_start",
+      "description": "Clean-Start differs from the worked example at cell-content level",
+      "passed": false,
+      "known_defect": true,
+      "actual": {
+        "identical_cell_contents": true
+      },
+      "expected": {
+        "identical_cell_contents": false
+      }
+    }
+  ]
+}

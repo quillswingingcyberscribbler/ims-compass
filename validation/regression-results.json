@@ -1,0 +1,1190 @@
+{
+  "review_date": "2026-10-23",
+  "package_version": "0.1.0-review.2",
+  "method": "Read-only OOXML inspection, independent input reconciliation and saved-result assertions. No native Excel calculation.",
+  "passed": 62,
+  "failed": 22,
+  "known_failures": 22,
+  "files": [
+    {
+      "file": "IMS-Compass-v2.6.1-EN.xlsx",
+      "sha256": "a2a16d8b77bae0ddef4a693059bb3d18ad92743f22b014d4e0567d40549af696",
+      "language": "EN",
+      "edition": "demonstration",
+      "formula_cells": 74555,
+      "passed": 17,
+      "failed": 4,
+      "known_failures": 4,
+      "checks": [
+        {
+          "id": "file_no_cached_errors",
+          "description": "No saved Excel error cells",
+          "passed": true,
+          "known_defect": false,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "id": "file_no_vba_external_workbooks",
+          "description": "No VBA or external-workbook dependency",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "vba": false,
+            "external_workbooks": false
+          },
+          "expected": {
+            "vba": false,
+            "external_workbooks": false
+          }
+        },
+        {
+          "id": "version_metadata",
+          "description": "Core title identifies v2.6.1",
+          "passed": true,
+          "known_defect": false,
+          "actual": "IMS Compass v2.6.1-EN",
+          "expected": "v2.6.1"
+        },
+        {
+          "id": "validation_definitions_retained",
+          "description": "Standard and extended validation definitions are retained",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "standard": 101,
+            "extended": 71
+          },
+          "expected": {
+            "standard": 101,
+            "extended": 71
+          }
+        },
+        {
+          "id": "object_validation_live",
+          "description": "Prepared input-validation cells contain live formulas: Objects",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "sheet": "Objects",
+            "count_without_formula": 1,
+            "first_cells": [
+              "K8"
+            ]
+          },
+          "expected": {
+            "count_without_formula": 0
+          }
+        },
+        {
+          "id": "coverage_rule_validation_live",
+          "description": "Prepared input-validation cells contain live formulas: CoverageRules",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "sheet": "CoverageRules",
+            "count_without_formula": 150,
+            "first_cells": [
+              "I8",
+              "I9",
+              "I10",
+              "I11",
+              "I12",
+              "I13",
+              "I14",
+              "I15",
+              "I16",
+              "I17",
+              "I18",
+              "I19",
+              "I20",
+              "I21",
+              "I22"
+            ]
+          },
+          "expected": {
+            "count_without_formula": 0
+          }
+        },
+        {
+          "id": "coverage_validation_live",
+          "description": "Prepared input-validation cells contain live formulas: Coverage",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "sheet": "Coverage",
+            "count_without_formula": 1000,
+            "first_cells": [
+              "L8",
+              "L9",
+              "L10",
+              "L11",
+              "L12",
+              "L13",
+              "L14",
+              "L15",
+              "L16",
+              "L17",
+              "L18",
+              "L19",
+              "L20",
+              "L21",
+              "L22"
+            ]
+          },
+          "expected": {
+            "count_without_formula": 0
+          }
+        },
+        {
+          "id": "coverage_target_counts",
+          "description": "Saved active-rule counts reconcile with current raw membership",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "total": 13.0,
+            "mismatches": []
+          },
+          "expected": {
+            "total": 13
+          }
+        },
+        {
+          "id": "coverage_missing_assignments",
+          "description": "Saved missing-coverage total reconciles with supplied records",
+          "passed": true,
+          "known_defect": false,
+          "actual": 1.0,
+          "expected": {
+            "count": 1,
+            "missing": [
+              {
+                "rule": "REG-004",
+                "object": "S-021"
+              }
+            ]
+          }
+        },
+        {
+          "id": "selected_target_view",
+          "description": "Selected rule exposes its expected object set",
+          "passed": true,
+          "known_defect": false,
+          "actual": [
+            "S-020",
+            "S-021"
+          ],
+          "expected": [
+            "S-020",
+            "S-021"
+          ]
+        },
+        {
+          "id": "report_control_count",
+          "description": "Report control count matches selected catalogue",
+          "passed": true,
+          "known_defect": false,
+          "actual": 93.0,
+          "expected": 93
+        },
+        {
+          "id": "foundation_open_status",
+          "description": "All 65 topic formulas recognize the localized Open selection",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "formulas": 65,
+            "open_topics": 63,
+            "bad_cells": []
+          },
+          "expected": {
+            "formulas": 65,
+            "open_topics": 63,
+            "bad_cells": []
+          }
+        },
+        {
+          "id": "english_formula_literals",
+          "description": "Previously identified untranslated formula literals are absent",
+          "passed": true,
+          "known_defect": false,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "id": "governance_reference_ids",
+          "description": "Both governance rows validate five unique referenced IDs",
+          "passed": true,
+          "known_defect": false,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "id": "release_zero_example_references",
+          "description": "Embedded zero/blank test identifies actual demo examples",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "procedure": "Compare Z-001 (measured 0) with Z-00X (no measurement).",
+            "proof": "Objectives!P8"
+          },
+          "expected": {
+            "records": [
+              "Z-002",
+              "Z-004"
+            ],
+            "proof_cells": [
+              "P10",
+              "P11"
+            ]
+          }
+        },
+        {
+          "id": "release_task_count_matches_edition",
+          "description": "Embedded task-count expectation applies to this edition",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "actual": 24.0,
+            "written_expectation": 24
+          },
+          "expected": "Current edition-specific expectation"
+        },
+        {
+          "id": "example_m-005",
+          "description": "M-005 closure result",
+          "passed": true,
+          "known_defect": false,
+          "actual": "Effectively closed",
+          "expected": "Effectively closed"
+        },
+        {
+          "id": "example_m-007",
+          "description": "M-007 closure result",
+          "passed": true,
+          "known_defect": false,
+          "actual": "Effectively closed",
+          "expected": "Effectively closed"
+        },
+        {
+          "id": "example_m-002",
+          "description": "M-002 closure result",
+          "passed": true,
+          "known_defect": false,
+          "actual": "Closure incomplete",
+          "expected": "Closure incomplete"
+        },
+        {
+          "id": "example_finding_closure",
+          "description": "Matching V-007 finding closure",
+          "passed": true,
+          "known_defect": false,
+          "actual": "Closure confirmed",
+          "expected": "Closure confirmed"
+        },
+        {
+          "id": "zero_vs_blank_measurement",
+          "description": "Measured zero differs from absent measurement",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "zero": "Target value reached",
+            "blank": "Measurement open"
+          },
+          "expected": {
+            "zero": "Target value reached",
+            "blank": "Measurement open"
+          }
+        }
+      ]
+    },
+    {
+      "file": "IMS-Compass-v2.6.1-EN-Clean-Start.xlsx",
+      "sha256": "c14cca406fbc308bee022b72555aa51d7969b0dca23deb2d0b2efc180f71cc77",
+      "language": "EN",
+      "edition": "clean-start",
+      "formula_cells": 74555,
+      "passed": 15,
+      "failed": 7,
+      "known_failures": 7,
+      "checks": [
+        {
+          "id": "file_no_cached_errors",
+          "description": "No saved Excel error cells",
+          "passed": true,
+          "known_defect": false,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "id": "file_no_vba_external_workbooks",
+          "description": "No VBA or external-workbook dependency",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "vba": false,
+            "external_workbooks": false
+          },
+          "expected": {
+            "vba": false,
+            "external_workbooks": false
+          }
+        },
+        {
+          "id": "version_metadata",
+          "description": "Core title identifies v2.6.1",
+          "passed": true,
+          "known_defect": false,
+          "actual": "IMS Compass v2.6.1-EN Clean Start",
+          "expected": "v2.6.1"
+        },
+        {
+          "id": "validation_definitions_retained",
+          "description": "Standard and extended validation definitions are retained",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "standard": 101,
+            "extended": 71
+          },
+          "expected": {
+            "standard": 101,
+            "extended": 71
+          }
+        },
+        {
+          "id": "object_validation_live",
+          "description": "Prepared input-validation cells contain live formulas: Objects",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "sheet": "Objects",
+            "count_without_formula": 1,
+            "first_cells": [
+              "K8"
+            ]
+          },
+          "expected": {
+            "count_without_formula": 0
+          }
+        },
+        {
+          "id": "coverage_rule_validation_live",
+          "description": "Prepared input-validation cells contain live formulas: CoverageRules",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "sheet": "CoverageRules",
+            "count_without_formula": 150,
+            "first_cells": [
+              "I8",
+              "I9",
+              "I10",
+              "I11",
+              "I12",
+              "I13",
+              "I14",
+              "I15",
+              "I16",
+              "I17",
+              "I18",
+              "I19",
+              "I20",
+              "I21",
+              "I22"
+            ]
+          },
+          "expected": {
+            "count_without_formula": 0
+          }
+        },
+        {
+          "id": "coverage_validation_live",
+          "description": "Prepared input-validation cells contain live formulas: Coverage",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "sheet": "Coverage",
+            "count_without_formula": 1000,
+            "first_cells": [
+              "L8",
+              "L9",
+              "L10",
+              "L11",
+              "L12",
+              "L13",
+              "L14",
+              "L15",
+              "L16",
+              "L17",
+              "L18",
+              "L19",
+              "L20",
+              "L21",
+              "L22"
+            ]
+          },
+          "expected": {
+            "count_without_formula": 0
+          }
+        },
+        {
+          "id": "coverage_target_counts",
+          "description": "Saved active-rule counts reconcile with current raw membership",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "total": 0.0,
+            "mismatches": []
+          },
+          "expected": {
+            "total": 0
+          }
+        },
+        {
+          "id": "coverage_missing_assignments",
+          "description": "Saved missing-coverage total reconciles with supplied records",
+          "passed": true,
+          "known_defect": false,
+          "actual": 0.0,
+          "expected": {
+            "count": 0,
+            "missing": []
+          }
+        },
+        {
+          "id": "selected_target_view",
+          "description": "Selected rule exposes its expected object set",
+          "passed": true,
+          "known_defect": false,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "id": "report_control_count",
+          "description": "Report control count matches selected catalogue",
+          "passed": true,
+          "known_defect": false,
+          "actual": 0.0,
+          "expected": 0
+        },
+        {
+          "id": "foundation_open_status",
+          "description": "All 65 topic formulas recognize the localized Open selection",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "formulas": 65,
+            "open_topics": 65,
+            "bad_cells": []
+          },
+          "expected": {
+            "formulas": 65,
+            "open_topics": 65,
+            "bad_cells": []
+          }
+        },
+        {
+          "id": "english_formula_literals",
+          "description": "Previously identified untranslated formula literals are absent",
+          "passed": true,
+          "known_defect": false,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "id": "governance_reference_ids",
+          "description": "Both governance rows validate five unique referenced IDs",
+          "passed": true,
+          "known_defect": false,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "id": "release_zero_example_references",
+          "description": "Embedded zero/blank test identifies actual demo examples",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "procedure": "Compare Z-001 (measured 0) with Z-00X (no measurement).",
+            "proof": "Objectives!P8"
+          },
+          "expected": {
+            "records": [
+              "Z-002",
+              "Z-004"
+            ],
+            "proof_cells": [
+              "P10",
+              "P11"
+            ]
+          }
+        },
+        {
+          "id": "release_task_count_matches_edition",
+          "description": "Embedded task-count expectation applies to this edition",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "actual": 0.0,
+            "written_expectation": 24
+          },
+          "expected": "Current edition-specific expectation"
+        },
+        {
+          "id": "clean_operational_ids_cleared",
+          "description": "Core operational, scope, person and mandate IDs are cleared",
+          "passed": true,
+          "known_defect": false,
+          "actual": {},
+          "expected": {}
+        },
+        {
+          "id": "clean_reference_catalogue_retained",
+          "description": "193 external catalogue entries remain",
+          "passed": true,
+          "known_defect": false,
+          "actual": 193,
+          "expected": 193
+        },
+        {
+          "id": "clean_document_references_resolve",
+          "description": "Retained document object/person references resolve",
+          "passed": false,
+          "known_defect": true,
+          "actual": [
+            {
+              "cell": "Documents!C23",
+              "document": "DOC-MAP",
+              "unresolved": "S-010"
+            },
+            {
+              "cell": "Documents!F23",
+              "document": "DOC-MAP",
+              "unresolved": "PERSON-01"
+            }
+          ],
+          "expected": []
+        },
+        {
+          "id": "clean_method_reference_resolves",
+          "description": "Retained example method document reference resolves",
+          "passed": false,
+          "known_defect": true,
+          "actual": [
+            {
+              "cell": "MasterData!L82",
+              "method": "METHOD-01",
+              "unresolved": "DOC-METH"
+            }
+          ],
+          "expected": []
+        },
+        {
+          "id": "clean_governance_unused",
+          "description": "No scope produces no claimed governance definition",
+          "passed": true,
+          "known_defect": false,
+          "actual": [
+            "Not used",
+            "Not used"
+          ],
+          "expected": [
+            "Not used",
+            "Not used"
+          ]
+        },
+        {
+          "id": "clean_home_empty",
+          "description": "Clean operational task count is zero",
+          "passed": true,
+          "known_defect": false,
+          "actual": 0.0,
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "file": "IMS-Kompass-v2.6.1.xlsx",
+      "sha256": "d99a3b65a7fbf8daf175c7cf299e71e85046d31d1d009d37ab99aa8a9c444b19",
+      "language": "DE",
+      "edition": "demonstration",
+      "formula_cells": 74555,
+      "passed": 16,
+      "failed": 4,
+      "known_failures": 4,
+      "checks": [
+        {
+          "id": "file_no_cached_errors",
+          "description": "No saved Excel error cells",
+          "passed": true,
+          "known_defect": false,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "id": "file_no_vba_external_workbooks",
+          "description": "No VBA or external-workbook dependency",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "vba": false,
+            "external_workbooks": false
+          },
+          "expected": {
+            "vba": false,
+            "external_workbooks": false
+          }
+        },
+        {
+          "id": "version_metadata",
+          "description": "Core title identifies v2.6.1",
+          "passed": true,
+          "known_defect": false,
+          "actual": "IMS-Kompass v2.6.1",
+          "expected": "v2.6.1"
+        },
+        {
+          "id": "validation_definitions_retained",
+          "description": "Standard and extended validation definitions are retained",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "standard": 101,
+            "extended": 71
+          },
+          "expected": {
+            "standard": 101,
+            "extended": 71
+          }
+        },
+        {
+          "id": "object_validation_live",
+          "description": "Prepared input-validation cells contain live formulas: Objekte",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "sheet": "Objekte",
+            "count_without_formula": 1,
+            "first_cells": [
+              "K8"
+            ]
+          },
+          "expected": {
+            "count_without_formula": 0
+          }
+        },
+        {
+          "id": "coverage_rule_validation_live",
+          "description": "Prepared input-validation cells contain live formulas: Deckungsregeln",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "sheet": "Deckungsregeln",
+            "count_without_formula": 150,
+            "first_cells": [
+              "I8",
+              "I9",
+              "I10",
+              "I11",
+              "I12",
+              "I13",
+              "I14",
+              "I15",
+              "I16",
+              "I17",
+              "I18",
+              "I19",
+              "I20",
+              "I21",
+              "I22"
+            ]
+          },
+          "expected": {
+            "count_without_formula": 0
+          }
+        },
+        {
+          "id": "coverage_validation_live",
+          "description": "Prepared input-validation cells contain live formulas: Deckung",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "sheet": "Deckung",
+            "count_without_formula": 1000,
+            "first_cells": [
+              "L8",
+              "L9",
+              "L10",
+              "L11",
+              "L12",
+              "L13",
+              "L14",
+              "L15",
+              "L16",
+              "L17",
+              "L18",
+              "L19",
+              "L20",
+              "L21",
+              "L22"
+            ]
+          },
+          "expected": {
+            "count_without_formula": 0
+          }
+        },
+        {
+          "id": "coverage_target_counts",
+          "description": "Saved active-rule counts reconcile with current raw membership",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "total": 13.0,
+            "mismatches": []
+          },
+          "expected": {
+            "total": 13
+          }
+        },
+        {
+          "id": "coverage_missing_assignments",
+          "description": "Saved missing-coverage total reconciles with supplied records",
+          "passed": true,
+          "known_defect": false,
+          "actual": 1.0,
+          "expected": {
+            "count": 1,
+            "missing": [
+              {
+                "rule": "REG-004",
+                "object": "S-021"
+              }
+            ]
+          }
+        },
+        {
+          "id": "selected_target_view",
+          "description": "Selected rule exposes its expected object set",
+          "passed": true,
+          "known_defect": false,
+          "actual": [
+            "S-020",
+            "S-021"
+          ],
+          "expected": [
+            "S-020",
+            "S-021"
+          ]
+        },
+        {
+          "id": "report_control_count",
+          "description": "Report control count matches selected catalogue",
+          "passed": true,
+          "known_defect": false,
+          "actual": 93.0,
+          "expected": 93
+        },
+        {
+          "id": "foundation_open_status",
+          "description": "All 65 topic formulas recognize the localized Open selection",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "formulas": 65,
+            "open_topics": 63,
+            "bad_cells": []
+          },
+          "expected": {
+            "formulas": 65,
+            "open_topics": 63,
+            "bad_cells": []
+          }
+        },
+        {
+          "id": "governance_reference_ids",
+          "description": "Both governance rows validate five unique referenced IDs",
+          "passed": true,
+          "known_defect": false,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "id": "release_zero_example_references",
+          "description": "Embedded zero/blank test identifies actual demo examples",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "procedure": "Z-001 (Messung 0) mit Z-00X (keine Messung) vergleichen.",
+            "proof": "Ziele!P8"
+          },
+          "expected": {
+            "records": [
+              "Z-002",
+              "Z-004"
+            ],
+            "proof_cells": [
+              "P10",
+              "P11"
+            ]
+          }
+        },
+        {
+          "id": "release_task_count_matches_edition",
+          "description": "Embedded task-count expectation applies to this edition",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "actual": 24.0,
+            "written_expectation": 24
+          },
+          "expected": "Current edition-specific expectation"
+        },
+        {
+          "id": "example_m-005",
+          "description": "M-005 closure result",
+          "passed": true,
+          "known_defect": false,
+          "actual": "Wirksam abgeschlossen",
+          "expected": "Wirksam abgeschlossen"
+        },
+        {
+          "id": "example_m-007",
+          "description": "M-007 closure result",
+          "passed": true,
+          "known_defect": false,
+          "actual": "Wirksam abgeschlossen",
+          "expected": "Wirksam abgeschlossen"
+        },
+        {
+          "id": "example_m-002",
+          "description": "M-002 closure result",
+          "passed": true,
+          "known_defect": false,
+          "actual": "Abschluss unvollständig",
+          "expected": "Abschluss unvollständig"
+        },
+        {
+          "id": "example_finding_closure",
+          "description": "Matching V-007 finding closure",
+          "passed": true,
+          "known_defect": false,
+          "actual": "Abschluss bestätigt",
+          "expected": "Abschluss bestätigt"
+        },
+        {
+          "id": "zero_vs_blank_measurement",
+          "description": "Measured zero differs from absent measurement",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "zero": "Zielwert erreicht",
+            "blank": "Messung offen"
+          },
+          "expected": {
+            "zero": "Zielwert erreicht",
+            "blank": "Messung offen"
+          }
+        }
+      ]
+    },
+    {
+      "file": "IMS-Kompass-v2.6.1-Leerstart.xlsx",
+      "sha256": "6aab33eeda23dab14ab6e15b89557361ad2eab90684b10c17167b373c0c5fad0",
+      "language": "DE",
+      "edition": "clean-start",
+      "formula_cells": 74555,
+      "passed": 14,
+      "failed": 7,
+      "known_failures": 7,
+      "checks": [
+        {
+          "id": "file_no_cached_errors",
+          "description": "No saved Excel error cells",
+          "passed": true,
+          "known_defect": false,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "id": "file_no_vba_external_workbooks",
+          "description": "No VBA or external-workbook dependency",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "vba": false,
+            "external_workbooks": false
+          },
+          "expected": {
+            "vba": false,
+            "external_workbooks": false
+          }
+        },
+        {
+          "id": "version_metadata",
+          "description": "Core title identifies v2.6.1",
+          "passed": true,
+          "known_defect": false,
+          "actual": "IMS-Kompass v2.6.1 Leerstart",
+          "expected": "v2.6.1"
+        },
+        {
+          "id": "validation_definitions_retained",
+          "description": "Standard and extended validation definitions are retained",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "standard": 101,
+            "extended": 71
+          },
+          "expected": {
+            "standard": 101,
+            "extended": 71
+          }
+        },
+        {
+          "id": "object_validation_live",
+          "description": "Prepared input-validation cells contain live formulas: Objekte",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "sheet": "Objekte",
+            "count_without_formula": 1,
+            "first_cells": [
+              "K8"
+            ]
+          },
+          "expected": {
+            "count_without_formula": 0
+          }
+        },
+        {
+          "id": "coverage_rule_validation_live",
+          "description": "Prepared input-validation cells contain live formulas: Deckungsregeln",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "sheet": "Deckungsregeln",
+            "count_without_formula": 150,
+            "first_cells": [
+              "I8",
+              "I9",
+              "I10",
+              "I11",
+              "I12",
+              "I13",
+              "I14",
+              "I15",
+              "I16",
+              "I17",
+              "I18",
+              "I19",
+              "I20",
+              "I21",
+              "I22"
+            ]
+          },
+          "expected": {
+            "count_without_formula": 0
+          }
+        },
+        {
+          "id": "coverage_validation_live",
+          "description": "Prepared input-validation cells contain live formulas: Deckung",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "sheet": "Deckung",
+            "count_without_formula": 1000,
+            "first_cells": [
+              "L8",
+              "L9",
+              "L10",
+              "L11",
+              "L12",
+              "L13",
+              "L14",
+              "L15",
+              "L16",
+              "L17",
+              "L18",
+              "L19",
+              "L20",
+              "L21",
+              "L22"
+            ]
+          },
+          "expected": {
+            "count_without_formula": 0
+          }
+        },
+        {
+          "id": "coverage_target_counts",
+          "description": "Saved active-rule counts reconcile with current raw membership",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "total": 0.0,
+            "mismatches": []
+          },
+          "expected": {
+            "total": 0
+          }
+        },
+        {
+          "id": "coverage_missing_assignments",
+          "description": "Saved missing-coverage total reconciles with supplied records",
+          "passed": true,
+          "known_defect": false,
+          "actual": 0.0,
+          "expected": {
+            "count": 0,
+            "missing": []
+          }
+        },
+        {
+          "id": "selected_target_view",
+          "description": "Selected rule exposes its expected object set",
+          "passed": true,
+          "known_defect": false,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "id": "report_control_count",
+          "description": "Report control count matches selected catalogue",
+          "passed": true,
+          "known_defect": false,
+          "actual": 0.0,
+          "expected": 0
+        },
+        {
+          "id": "foundation_open_status",
+          "description": "All 65 topic formulas recognize the localized Open selection",
+          "passed": true,
+          "known_defect": false,
+          "actual": {
+            "formulas": 65,
+            "open_topics": 65,
+            "bad_cells": []
+          },
+          "expected": {
+            "formulas": 65,
+            "open_topics": 65,
+            "bad_cells": []
+          }
+        },
+        {
+          "id": "governance_reference_ids",
+          "description": "Both governance rows validate five unique referenced IDs",
+          "passed": true,
+          "known_defect": false,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "id": "release_zero_example_references",
+          "description": "Embedded zero/blank test identifies actual demo examples",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "procedure": "Z-001 (Messung 0) mit Z-00X (keine Messung) vergleichen.",
+            "proof": "Ziele!P8"
+          },
+          "expected": {
+            "records": [
+              "Z-002",
+              "Z-004"
+            ],
+            "proof_cells": [
+              "P10",
+              "P11"
+            ]
+          }
+        },
+        {
+          "id": "release_task_count_matches_edition",
+          "description": "Embedded task-count expectation applies to this edition",
+          "passed": false,
+          "known_defect": true,
+          "actual": {
+            "actual": 0.0,
+            "written_expectation": 24
+          },
+          "expected": "Current edition-specific expectation"
+        },
+        {
+          "id": "clean_operational_ids_cleared",
+          "description": "Core operational, scope, person and mandate IDs are cleared",
+          "passed": true,
+          "known_defect": false,
+          "actual": {},
+          "expected": {}
+        },
+        {
+          "id": "clean_reference_catalogue_retained",
+          "description": "193 external catalogue entries remain",
+          "passed": true,
+          "known_defect": false,
+          "actual": 193,
+          "expected": 193
+        },
+        {
+          "id": "clean_document_references_resolve",
+          "description": "Retained document object/person references resolve",
+          "passed": false,
+          "known_defect": true,
+          "actual": [
+            {
+              "cell": "Dokumente!C23",
+              "document": "DOC-MAP",
+              "unresolved": "S-010"
+            },
+            {
+              "cell": "Dokumente!F23",
+              "document": "DOC-MAP",
+              "unresolved": "PERSON-01"
+            }
+          ],
+          "expected": []
+        },
+        {
+          "id": "clean_method_reference_resolves",
+          "description": "Retained example method document reference resolves",
+          "passed": false,
+          "known_defect": true,
+          "actual": [
+            {
+              "cell": "Stammdaten!L82",
+              "method": "METHOD-01",
+              "unresolved": "DOC-METH"
+            }
+          ],
+          "expected": []
+        },
+        {
+          "id": "clean_governance_unused",
+          "description": "No scope produces no claimed governance definition",
+          "passed": true,
+          "known_defect": false,
+          "actual": [
+            "Nicht verwendet",
+            "Nicht verwendet"
+          ],
+          "expected": [
+            "Nicht verwendet",
+            "Nicht verwendet"
+          ]
+        },
+        {
+          "id": "clean_home_empty",
+          "description": "Clean operational task count is zero",
+          "passed": true,
+          "known_defect": false,
+          "actual": 0.0,
+          "expected": 0
+        }
+      ]
+    }
+  ]
+}

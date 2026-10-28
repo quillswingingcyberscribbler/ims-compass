@@ -1,0 +1,3848 @@
+{
+  "review_date": "2026-10-23",
+  "package_version": "0.1.0-review.2",
+  "method": "Purpose-limited read-only source-formula evaluator; all changes only in memory; no native Excel execution, no XLSX saves.",
+  "input_sha256": {
+    "IMS-Compass-v2.6.1-EN.xlsx": "a2a16d8b77bae0ddef4a693059bb3d18ad92743f22b014d4e0567d40549af696",
+    "IMS-Compass-v2.6.1-EN-Clean-Start.xlsx": "c14cca406fbc308bee022b72555aa51d7969b0dca23deb2d0b2efc180f71cc77",
+    "IMS-Kompass-v2.6.1.xlsx": "d99a3b65a7fbf8daf175c7cf299e71e85046d31d1d009d37ab99aa8a9c444b19",
+    "IMS-Kompass-v2.6.1-Leerstart.xlsx": "6aab33eeda23dab14ab6e15b89557361ad2eab90684b10c17167b373c0c5fad0"
+  },
+  "count": 46,
+  "behavior_passed": 26,
+  "evaluator_errors": 0,
+  "scenarios": [
+    {
+      "name": "en-first-record-prerequisites",
+      "workbook": "IMS-Compass-v2.6.1-EN-Clean-Start.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "MasterData",
+          "cell": "A35",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "MasterData",
+          "cell": "B35",
+          "value": "Eva Stein"
+        },
+        {
+          "sheet": "MasterData",
+          "cell": "C35",
+          "value": "ROLE-IMS"
+        },
+        {
+          "sheet": "MasterData",
+          "cell": "D35",
+          "value": "Fictitious IMS coordination"
+        },
+        {
+          "sheet": "MasterData",
+          "cell": "E35",
+          "value": "Yes"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "A8",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "B8",
+          "value": "Information security management"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "C8",
+          "value": "N27"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "D8",
+          "value": "DEMO: IMS steering, production and test service as well as AI procurement with procurement agent."
+        },
+        {
+          "sheet": "Scope",
+          "cell": "E8",
+          "value": "DOC-MS-IS"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "F8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "G8",
+          "value": "Scope 1"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "H8",
+          "value": "Released"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "I8",
+          "value": 46023.0
+        },
+        {
+          "sheet": "Scope",
+          "cell": "J8",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Scope",
+          "cell": "A25",
+          "value": "MB-001"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "B25",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "C25",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "D25",
+          "value": "In Scope"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "E25",
+          "value": "Common management process is part of the ISMS."
+        },
+        {
+          "sheet": "Scope",
+          "cell": "F25",
+          "value": 46023.0
+        },
+        {
+          "sheet": "Scope",
+          "cell": "G25",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Scope",
+          "cell": "H25",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "A9",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "B9",
+          "value": "IMS steering"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "C9",
+          "value": "Management process"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "D9",
+          "value": null
+        },
+        {
+          "sheet": "Objects",
+          "cell": "E9",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "F9",
+          "value": "Traceably connect risks, objectives, checks and decisions."
+        },
+        {
+          "sheet": "Objects",
+          "cell": "G9",
+          "value": "Risk owner, management and independent expert review."
+        },
+        {
+          "sheet": "Objects",
+          "cell": "H9",
+          "value": "Management needs timely decisions and robust evidence."
+        },
+        {
+          "sheet": "Objects",
+          "cell": "I9",
+          "value": "Control 2"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "J9",
+          "value": 46326.0
+        },
+        {
+          "sheet": "Objects",
+          "cell": "Y9",
+          "value": "Production"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "A8",
+          "value": "REG-001"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "B8",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "C8",
+          "value": "K-001"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "D8",
+          "value": "Management process"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "E8",
+          "value": "Management reviews are required for the common steering process."
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "F8",
+          "value": "Yes"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "G8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "H8",
+          "value": 46387.0
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "O8",
+          "value": "All modes"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "A8",
+          "value": "DOC-MS-IS"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "B8",
+          "value": "Procedure definition"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "C8",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "D8",
+          "value": "Test scope"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "E8",
+          "value": "v1"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "F8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "G8",
+          "value": "Released"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "H8",
+          "value": 46023
+        },
+        {
+          "sheet": "Documents",
+          "cell": "I8",
+          "value": 46387
+        },
+        {
+          "sheet": "Documents",
+          "cell": "J8",
+          "value": "Test document location"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "K8",
+          "value": "Test scope criteria"
+        }
+      ],
+      "actual": {
+        "MasterData!F35": "OK",
+        "Scope!K8": "OK",
+        "Objects!K9": "OK",
+        "Scope!I25": "OK",
+        "Scope!L25": "In Scope",
+        "Controls!I8": "OK"
+      },
+      "expected_correct": {
+        "MasterData!F35": "OK",
+        "Scope!K8": "OK",
+        "Objects!K9": "OK",
+        "Scope!I25": "OK",
+        "Scope!L25": "In Scope",
+        "Controls!I8": "OK"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "A complete person, MS, second-row object and membership form a valid one-object target population.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "en-first-new-rule",
+      "workbook": "IMS-Compass-v2.6.1-EN-Clean-Start.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "MasterData",
+          "cell": "A35",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "MasterData",
+          "cell": "B35",
+          "value": "Eva Stein"
+        },
+        {
+          "sheet": "MasterData",
+          "cell": "C35",
+          "value": "ROLE-IMS"
+        },
+        {
+          "sheet": "MasterData",
+          "cell": "D35",
+          "value": "Fictitious IMS coordination"
+        },
+        {
+          "sheet": "MasterData",
+          "cell": "E35",
+          "value": "Yes"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "A8",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "B8",
+          "value": "Information security management"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "C8",
+          "value": "N27"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "D8",
+          "value": "DEMO: IMS steering, production and test service as well as AI procurement with procurement agent."
+        },
+        {
+          "sheet": "Scope",
+          "cell": "E8",
+          "value": "DOC-MS-IS"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "F8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "G8",
+          "value": "Scope 1"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "H8",
+          "value": "Released"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "I8",
+          "value": 46023.0
+        },
+        {
+          "sheet": "Scope",
+          "cell": "J8",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Scope",
+          "cell": "A25",
+          "value": "MB-001"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "B25",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "C25",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "D25",
+          "value": "In Scope"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "E25",
+          "value": "Common management process is part of the ISMS."
+        },
+        {
+          "sheet": "Scope",
+          "cell": "F25",
+          "value": 46023.0
+        },
+        {
+          "sheet": "Scope",
+          "cell": "G25",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Scope",
+          "cell": "H25",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "A9",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "B9",
+          "value": "IMS steering"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "C9",
+          "value": "Management process"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "D9",
+          "value": null
+        },
+        {
+          "sheet": "Objects",
+          "cell": "E9",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "F9",
+          "value": "Traceably connect risks, objectives, checks and decisions."
+        },
+        {
+          "sheet": "Objects",
+          "cell": "G9",
+          "value": "Risk owner, management and independent expert review."
+        },
+        {
+          "sheet": "Objects",
+          "cell": "H9",
+          "value": "Management needs timely decisions and robust evidence."
+        },
+        {
+          "sheet": "Objects",
+          "cell": "I9",
+          "value": "Control 2"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "J9",
+          "value": 46326.0
+        },
+        {
+          "sheet": "Objects",
+          "cell": "Y9",
+          "value": "Production"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "A8",
+          "value": "REG-001"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "B8",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "C8",
+          "value": "K-001"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "D8",
+          "value": "Management process"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "E8",
+          "value": "Management reviews are required for the common steering process."
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "F8",
+          "value": "Yes"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "G8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "H8",
+          "value": 46387.0
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "O8",
+          "value": "All modes"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "A8",
+          "value": "DOC-MS-IS"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "B8",
+          "value": "Procedure definition"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "C8",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "D8",
+          "value": "Test scope"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "E8",
+          "value": "v1"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "F8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "G8",
+          "value": "Released"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "H8",
+          "value": 46023
+        },
+        {
+          "sheet": "Documents",
+          "cell": "I8",
+          "value": 46387
+        },
+        {
+          "sheet": "Documents",
+          "cell": "J8",
+          "value": "Test document location"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "K8",
+          "value": "Test scope criteria"
+        }
+      ],
+      "actual": {
+        "CoverageRules!I8": null,
+        "CoverageRules!J8": 0.0,
+        "CoverageRules!L8": 0.0
+      },
+      "expected_correct": {
+        "CoverageRules!I8": "OK",
+        "CoverageRules!J8": 1,
+        "CoverageRules!L8": 1
+      },
+      "expected_behavior_met": false,
+      "interpretation": "Valid input cannot turn the absent rule validator into OK: the rule remains excluded from its expected-target and missing-assignment counts.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "en-first-object-row",
+      "workbook": "IMS-Compass-v2.6.1-EN-Clean-Start.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "MasterData",
+          "cell": "A35",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "MasterData",
+          "cell": "B35",
+          "value": "Eva Stein"
+        },
+        {
+          "sheet": "MasterData",
+          "cell": "C35",
+          "value": "ROLE-IMS"
+        },
+        {
+          "sheet": "MasterData",
+          "cell": "D35",
+          "value": "Fictitious IMS coordination"
+        },
+        {
+          "sheet": "MasterData",
+          "cell": "E35",
+          "value": "Yes"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "A8",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "B8",
+          "value": "Information security management"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "C8",
+          "value": "N27"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "D8",
+          "value": "DEMO: IMS steering, production and test service as well as AI procurement with procurement agent."
+        },
+        {
+          "sheet": "Scope",
+          "cell": "E8",
+          "value": "DOC-MS-IS"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "F8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "G8",
+          "value": "Scope 1"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "H8",
+          "value": "Released"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "I8",
+          "value": 46023.0
+        },
+        {
+          "sheet": "Scope",
+          "cell": "J8",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Scope",
+          "cell": "A25",
+          "value": "MB-001"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "B25",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "C25",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "D25",
+          "value": "In Scope"
+        },
+        {
+          "sheet": "Scope",
+          "cell": "E25",
+          "value": "Common management process is part of the ISMS."
+        },
+        {
+          "sheet": "Scope",
+          "cell": "F25",
+          "value": 46023.0
+        },
+        {
+          "sheet": "Scope",
+          "cell": "G25",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Scope",
+          "cell": "H25",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "A8",
+          "value": "REG-001"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "B8",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "C8",
+          "value": "K-001"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "D8",
+          "value": "Management process"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "E8",
+          "value": "Management reviews are required for the common steering process."
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "F8",
+          "value": "Yes"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "G8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "H8",
+          "value": 46387.0
+        },
+        {
+          "sheet": "CoverageRules",
+          "cell": "O8",
+          "value": "All modes"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "A8",
+          "value": "DOC-MS-IS"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "B8",
+          "value": "Procedure definition"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "C8",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "D8",
+          "value": "Test scope"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "E8",
+          "value": "v1"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "F8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "G8",
+          "value": "Released"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "H8",
+          "value": 46023
+        },
+        {
+          "sheet": "Documents",
+          "cell": "I8",
+          "value": 46387
+        },
+        {
+          "sheet": "Documents",
+          "cell": "J8",
+          "value": "Test document location"
+        },
+        {
+          "sheet": "Documents",
+          "cell": "K8",
+          "value": "Test scope criteria"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "A8",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "B8",
+          "value": "IMS steering"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "C8",
+          "value": "Management process"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "D8",
+          "value": null
+        },
+        {
+          "sheet": "Objects",
+          "cell": "E8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "F8",
+          "value": "Traceably connect risks, objectives, checks and decisions."
+        },
+        {
+          "sheet": "Objects",
+          "cell": "G8",
+          "value": "Risk owner, management and independent expert review."
+        },
+        {
+          "sheet": "Objects",
+          "cell": "H8",
+          "value": "Management needs timely decisions and robust evidence."
+        },
+        {
+          "sheet": "Objects",
+          "cell": "I8",
+          "value": "Control 2"
+        },
+        {
+          "sheet": "Objects",
+          "cell": "J8",
+          "value": 46326.0
+        },
+        {
+          "sheet": "Objects",
+          "cell": "Y8",
+          "value": "Production"
+        }
+      ],
+      "actual": {
+        "Objects!K8": null,
+        "Scope!I25": "Review object entry",
+        "Scope!L25": "Review entry"
+      },
+      "expected_correct": {
+        "Objects!K8": "OK",
+        "Scope!I25": "OK",
+        "Scope!L25": "In Scope"
+      },
+      "expected_behavior_met": false,
+      "interpretation": "The first prepared object row lacks a live validator, so a complete first object prevents its membership from becoming current.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "en-empty-coverage-register",
+      "workbook": "IMS-Compass-v2.6.1-EN-Clean-Start.xlsx",
+      "kind": "functional",
+      "changes": [],
+      "actual": {
+        "Coverage!L8": "OK",
+        "Coverage!L15": "Object mode mismatch"
+      },
+      "expected_correct": {
+        "Coverage!L8": null,
+        "Coverage!L15": null
+      },
+      "expected_behavior_met": false,
+      "interpretation": "Empty clean-start coverage rows retain the old demo OK/mode-mismatch labels.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "en-new-coverage-in-first-unused-row",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "Coverage",
+          "cell": "A21",
+          "value": "COV-NEW-TEST"
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "B21",
+          "value": "REG-001"
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "C21",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "D21",
+          "value": "U-001"
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "E21",
+          "value": "Local"
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "F21",
+          "value": "DEMO: Review procedure for the designated management process."
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "G21",
+          "value": "PERSON-04"
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "H21",
+          "value": 46300.0
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "I21",
+          "value": "Review procedure 2"
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "J21",
+          "value": "Control 2"
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "K21",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "A8",
+          "value": null
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "B8",
+          "value": null
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "C8",
+          "value": null
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "D8",
+          "value": null
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "E8",
+          "value": null
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "F8",
+          "value": null
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "G8",
+          "value": null
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "H8",
+          "value": null
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "I8",
+          "value": null
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "J8",
+          "value": null
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "K8",
+          "value": null
+        }
+      ],
+      "actual": {
+        "Coverage!L21": "",
+        "CoverageRules!K8": 0
+      },
+      "expected_correct": {
+        "Coverage!L21": "OK",
+        "CoverageRules!K8": 1
+      },
+      "expected_behavior_met": false,
+      "interpretation": "A complete previously valid row is moved from row 8 to the first unused row 21, assigned a fresh ID, and removed from row 8. Row 21 has no validator, so a valid new assignment disappears from the valid-coverage count.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "en-duplicate-coverage-id-and-rule-target",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "Coverage",
+          "cell": "A9",
+          "value": "COV-001"
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "B9",
+          "value": "REG-001"
+        },
+        {
+          "sheet": "Coverage",
+          "cell": "C9",
+          "value": "S-010"
+        }
+      ],
+      "actual": {
+        "Coverage!L8": "OK",
+        "Coverage!L9": "OK",
+        "CoverageRules!K8": 2
+      },
+      "expected_correct": {
+        "Coverage!L8": {
+          "not_in": [
+            null,
+            "",
+            "OK"
+          ],
+          "meaning": "A nonblank rejection of an invalid/duplicate record"
+        },
+        "Coverage!L9": {
+          "not_in": [
+            null,
+            "",
+            "OK"
+          ],
+          "meaning": "A nonblank rejection of an invalid/duplicate record"
+        },
+        "CoverageRules!K8": 0
+      },
+      "expected_behavior_met": false,
+      "interpretation": "Both old coverage rows keep OK; the valid-coverages count rises to 2 for one target. Expected 0 follows the workbook's unique-ID contract, which makes both duplicate records invalid.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "en-invalid-coverage-reference",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "Coverage",
+          "cell": "D8",
+          "value": "NO-SUCH-IMPLEMENTATION"
+        }
+      ],
+      "actual": {
+        "Coverage!L8": "OK",
+        "Coverage!M8": "Reference missing",
+        "CoverageRules!K8": 1
+      },
+      "expected_correct": {
+        "Coverage!L8": {
+          "not_in": [
+            null,
+            "",
+            "OK"
+          ],
+          "meaning": "A nonblank rejection of an invalid/duplicate record"
+        },
+        "Coverage!M8": "Reference missing",
+        "CoverageRules!K8": 0
+      },
+      "expected_behavior_met": false,
+      "interpretation": "The current-evidence formula sees the missing implementation, but the frozen OK validation still counts the row as a valid coverage assignment.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "en-duplicate-rule-id",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "CoverageRules",
+          "cell": "A9",
+          "value": "REG-001"
+        }
+      ],
+      "actual": {
+        "CoverageRules!I8": "OK",
+        "CoverageRules!I9": "OK",
+        "CoverageRules!J8": 1,
+        "CoverageRules!J9": 1
+      },
+      "expected_correct": {
+        "CoverageRules!I8": {
+          "not_in": [
+            null,
+            "",
+            "OK"
+          ],
+          "meaning": "A nonblank rejection of an invalid/duplicate record"
+        },
+        "CoverageRules!I9": {
+          "not_in": [
+            null,
+            "",
+            "OK"
+          ],
+          "meaning": "A nonblank rejection of an invalid/duplicate record"
+        },
+        "CoverageRules!J8": 0,
+        "CoverageRules!J9": 0
+      },
+      "expected_behavior_met": false,
+      "interpretation": "Both duplicate rule IDs retain OK and each continues counting its target population.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "en-baseline-zero-versus-blank",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "control",
+      "changes": [],
+      "actual": {
+        "Objectives!P10": "Target value reached",
+        "Objectives!P11": "Measurement open"
+      },
+      "expected_correct": {
+        "Objectives!P10": "Target value reached",
+        "Objectives!P11": "Measurement open"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Existing measured zero remains distinct from a missing measurement.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "en-report-N42-selection",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "StandardView",
+          "cell": "B4",
+          "value": "MS-AIMS"
+        }
+      ],
+      "actual": {
+        "Report!C4": "N42",
+        "Report!C10": 40.0
+      },
+      "expected_correct": {
+        "Report!C4": "N42",
+        "Report!C10": 40
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Changing the standard selector counts 38 N42 reference controls plus two sample internal requirements.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "en-production-only-coverage",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "CoverageRules",
+          "cell": "O11",
+          "value": "Production"
+        }
+      ],
+      "actual": {
+        "CoverageRules!J11": 1,
+        "CoverageRules!L11": 0.0,
+        "TargetCoverage!G9": "Yes",
+        "TargetCoverage!G10": "No"
+      },
+      "expected_correct": {
+        "CoverageRules!J11": 1,
+        "CoverageRules!L11": 0,
+        "TargetCoverage!G9": "Yes",
+        "TargetCoverage!G10": "No"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "A production-only REG-004 selects S-020 and excludes the draft test service.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "en-inactive-coverage-rule",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "CoverageRules",
+          "cell": "F11",
+          "value": "No"
+        }
+      ],
+      "actual": {
+        "CoverageRules!J11": 0.0,
+        "TargetCoverage!G9": "No",
+        "TargetCoverage!G10": "No"
+      },
+      "expected_correct": {
+        "CoverageRules!J11": 0,
+        "TargetCoverage!G9": "No",
+        "TargetCoverage!G10": "No"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "An inactive REG-004 contributes no expected targets in either language.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "en-governance-valid-reference-set",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Governance",
+          "cell": "D9",
+          "value": "In this workbook"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F23",
+          "value": 46330
+        }
+      ],
+      "actual": {
+        "Governance!L9": "Defined"
+      },
+      "expected_correct": {
+        "Governance!L9": "Defined"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Unique reference and confirmation-date validation.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "en-governance-invalid-responsible-id",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Governance",
+          "cell": "D9",
+          "value": "In this workbook"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F16",
+          "value": "MISSING"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F23",
+          "value": 46330
+        }
+      ],
+      "actual": {
+        "Governance!L9": "Review responsibility"
+      },
+      "expected_correct": {
+        "Governance!L9": "Review responsibility"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Unique reference and confirmation-date validation.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "en-governance-invalid-method-id",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Governance",
+          "cell": "D9",
+          "value": "In this workbook"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C19",
+          "value": "MISSING"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F23",
+          "value": 46330
+        }
+      ],
+      "actual": {
+        "Governance!L9": "Review risk method"
+      },
+      "expected_correct": {
+        "Governance!L9": "Review risk method"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Unique reference and confirmation-date validation.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "en-governance-invalid-mandate-id",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Governance",
+          "cell": "D9",
+          "value": "In this workbook"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C20",
+          "value": "MISSING"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F23",
+          "value": 46330
+        }
+      ],
+      "actual": {
+        "Governance!L9": "Review mandate"
+      },
+      "expected_correct": {
+        "Governance!L9": "Review mandate"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Unique reference and confirmation-date validation.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "en-governance-invalid-evidence-id",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Governance",
+          "cell": "D9",
+          "value": "In this workbook"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C22",
+          "value": "MISSING"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F23",
+          "value": 46330
+        }
+      ],
+      "actual": {
+        "Governance!L9": "Review evidence document"
+      },
+      "expected_correct": {
+        "Governance!L9": "Review evidence document"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Unique reference and confirmation-date validation.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "en-governance-invalid-confirmer-id",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Governance",
+          "cell": "D9",
+          "value": "In this workbook"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C23",
+          "value": "MISSING"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F23",
+          "value": 46330
+        }
+      ],
+      "actual": {
+        "Governance!L9": "Review confirming person"
+      },
+      "expected_correct": {
+        "Governance!L9": "Review confirming person"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Unique reference and confirmation-date validation.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "en-governance-duplicate-responsible-id",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Governance",
+          "cell": "D9",
+          "value": "In this workbook"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F23",
+          "value": 46330
+        },
+        {
+          "sheet": "MasterData",
+          "cell": "A41",
+          "value": "PERSON-01"
+        }
+      ],
+      "actual": {
+        "Governance!L9": "Review responsibility"
+      },
+      "expected_correct": {
+        "Governance!L9": "Review responsibility"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Unique reference and confirmation-date validation.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "en-governance-expired-confirmation",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Governance",
+          "cell": "D9",
+          "value": "In this workbook"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F23",
+          "value": 46302
+        }
+      ],
+      "actual": {
+        "Governance!L9": "Review due"
+      },
+      "expected_correct": {
+        "Governance!L9": "Review due"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Unique reference and confirmation-date validation.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "en-governance-invalid-linked-method",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "Governance",
+          "cell": "D9",
+          "value": "In this workbook"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F23",
+          "value": 46330
+        },
+        {
+          "sheet": "MasterData",
+          "cell": "E82",
+          "value": 0
+        }
+      ],
+      "actual": {
+        "Governance!L9": "Defined",
+        "MasterData!M82": "Review method limits"
+      },
+      "expected_correct": {
+        "Governance!L9": {
+          "not_in": [
+            "Defined"
+          ],
+          "meaning": "An invalid linked prerequisite must not produce a completed definition."
+        },
+        "MasterData!M82": "Review method limits"
+      },
+      "expected_behavior_met": false,
+      "interpretation": "The referenced record is invalid or unreleased, but the definition remains complete because only its ID is checked.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "en-governance-invalid-linked-mandate",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "Governance",
+          "cell": "D9",
+          "value": "In this workbook"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F23",
+          "value": 46330
+        },
+        {
+          "sheet": "MasterData",
+          "cell": "B99",
+          "value": "MISSING"
+        }
+      ],
+      "actual": {
+        "Governance!L9": "Defined",
+        "MasterData!J99": "Review person ID"
+      },
+      "expected_correct": {
+        "Governance!L9": {
+          "not_in": [
+            "Defined"
+          ],
+          "meaning": "An invalid linked prerequisite must not produce a completed definition."
+        },
+        "MasterData!J99": "Review person ID"
+      },
+      "expected_behavior_met": false,
+      "interpretation": "The referenced record is invalid or unreleased, but the definition remains complete because only its ID is checked.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "en-governance-unreleased-linked-evidence",
+      "workbook": "IMS-Compass-v2.6.1-EN.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "Governance",
+          "cell": "D9",
+          "value": "In this workbook"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Governance",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Governance",
+          "cell": "F23",
+          "value": 46330
+        },
+        {
+          "sheet": "Documents",
+          "cell": "G8",
+          "value": "Draft"
+        }
+      ],
+      "actual": {
+        "Governance!L9": "Defined",
+        "Documents!M8": "Not released"
+      },
+      "expected_correct": {
+        "Governance!L9": {
+          "not_in": [
+            "Defined"
+          ],
+          "meaning": "An invalid linked prerequisite must not produce a completed definition."
+        },
+        "Documents!M8": "Not released"
+      },
+      "expected_behavior_met": false,
+      "interpretation": "The referenced record is invalid or unreleased, but the definition remains complete because only its ID is checked.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "de-first-record-prerequisites",
+      "workbook": "IMS-Kompass-v2.6.1-Leerstart.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Stammdaten",
+          "cell": "A35",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Stammdaten",
+          "cell": "B35",
+          "value": "Eva Stein"
+        },
+        {
+          "sheet": "Stammdaten",
+          "cell": "C35",
+          "value": "ROLE-IMS"
+        },
+        {
+          "sheet": "Stammdaten",
+          "cell": "D35",
+          "value": "Fiktive IMS-Koordination"
+        },
+        {
+          "sheet": "Stammdaten",
+          "cell": "E35",
+          "value": "Ja"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "A8",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "B8",
+          "value": "Informationssicherheitsmanagement"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "C8",
+          "value": "N27"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "D8",
+          "value": "DEMO: IMS-Steuerung, Produktions- und Testdienst sowie KI-Beschaffung mit Einkaufsagent."
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "E8",
+          "value": "DOC-MS-IS"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "F8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "G8",
+          "value": "Scope 1"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "H8",
+          "value": "Freigegeben"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "I8",
+          "value": 46023.0
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "J8",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "A25",
+          "value": "MB-001"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "B25",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "C25",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "D25",
+          "value": "In Scope"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "E25",
+          "value": "Gemeinsamer Managementprozess ist Bestandteil des ISMS."
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "F25",
+          "value": 46023.0
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "G25",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "H25",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "A9",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "B9",
+          "value": "IMS-Steuerung"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "C9",
+          "value": "Managementprozess"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "D9",
+          "value": null
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "E9",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "F9",
+          "value": "Risiken, Ziele, Prüfungen und Entscheidungen nachvollziehbar verbinden."
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "G9",
+          "value": "Risikoeigner, Leitung und unabhängige Fachprüfung."
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "H9",
+          "value": "Leitung benötigt rechtzeitige Entscheidungen und belastbare Nachweise."
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "I9",
+          "value": "Steuerung 2"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "J9",
+          "value": 46326.0
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "Y9",
+          "value": "Produktivbetrieb"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "A8",
+          "value": "REG-001"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "B8",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "C8",
+          "value": "K-001"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "D8",
+          "value": "Managementprozess"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "E8",
+          "value": "Managementbewertungen werden für den gemeinsamen Steuerungsprozess benötigt."
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "F8",
+          "value": "Ja"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "G8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "H8",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "O8",
+          "value": "Alle Modi"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "A8",
+          "value": "DOC-MS-IS"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "B8",
+          "value": "Verfahrensfestlegung"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "C8",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "D8",
+          "value": "Test scope"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "E8",
+          "value": "v1"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "F8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "G8",
+          "value": "Freigegeben"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "H8",
+          "value": 46023
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "I8",
+          "value": 46387
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "J8",
+          "value": "Test document location"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "K8",
+          "value": "Test scope criteria"
+        }
+      ],
+      "actual": {
+        "Stammdaten!F35": "OK",
+        "Geltung!K8": "OK",
+        "Objekte!K9": "OK",
+        "Geltung!I25": "OK",
+        "Geltung!L25": "In Scope",
+        "Kontrollen!I8": "OK"
+      },
+      "expected_correct": {
+        "Stammdaten!F35": "OK",
+        "Geltung!K8": "OK",
+        "Objekte!K9": "OK",
+        "Geltung!I25": "OK",
+        "Geltung!L25": "In Scope",
+        "Kontrollen!I8": "OK"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "A complete person, MS, second-row object and membership form a valid one-object target population.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "de-first-new-rule",
+      "workbook": "IMS-Kompass-v2.6.1-Leerstart.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "Stammdaten",
+          "cell": "A35",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Stammdaten",
+          "cell": "B35",
+          "value": "Eva Stein"
+        },
+        {
+          "sheet": "Stammdaten",
+          "cell": "C35",
+          "value": "ROLE-IMS"
+        },
+        {
+          "sheet": "Stammdaten",
+          "cell": "D35",
+          "value": "Fiktive IMS-Koordination"
+        },
+        {
+          "sheet": "Stammdaten",
+          "cell": "E35",
+          "value": "Ja"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "A8",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "B8",
+          "value": "Informationssicherheitsmanagement"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "C8",
+          "value": "N27"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "D8",
+          "value": "DEMO: IMS-Steuerung, Produktions- und Testdienst sowie KI-Beschaffung mit Einkaufsagent."
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "E8",
+          "value": "DOC-MS-IS"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "F8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "G8",
+          "value": "Scope 1"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "H8",
+          "value": "Freigegeben"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "I8",
+          "value": 46023.0
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "J8",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "A25",
+          "value": "MB-001"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "B25",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "C25",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "D25",
+          "value": "In Scope"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "E25",
+          "value": "Gemeinsamer Managementprozess ist Bestandteil des ISMS."
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "F25",
+          "value": 46023.0
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "G25",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "H25",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "A9",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "B9",
+          "value": "IMS-Steuerung"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "C9",
+          "value": "Managementprozess"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "D9",
+          "value": null
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "E9",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "F9",
+          "value": "Risiken, Ziele, Prüfungen und Entscheidungen nachvollziehbar verbinden."
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "G9",
+          "value": "Risikoeigner, Leitung und unabhängige Fachprüfung."
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "H9",
+          "value": "Leitung benötigt rechtzeitige Entscheidungen und belastbare Nachweise."
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "I9",
+          "value": "Steuerung 2"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "J9",
+          "value": 46326.0
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "Y9",
+          "value": "Produktivbetrieb"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "A8",
+          "value": "REG-001"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "B8",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "C8",
+          "value": "K-001"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "D8",
+          "value": "Managementprozess"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "E8",
+          "value": "Managementbewertungen werden für den gemeinsamen Steuerungsprozess benötigt."
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "F8",
+          "value": "Ja"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "G8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "H8",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "O8",
+          "value": "Alle Modi"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "A8",
+          "value": "DOC-MS-IS"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "B8",
+          "value": "Verfahrensfestlegung"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "C8",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "D8",
+          "value": "Test scope"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "E8",
+          "value": "v1"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "F8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "G8",
+          "value": "Freigegeben"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "H8",
+          "value": 46023
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "I8",
+          "value": 46387
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "J8",
+          "value": "Test document location"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "K8",
+          "value": "Test scope criteria"
+        }
+      ],
+      "actual": {
+        "Deckungsregeln!I8": null,
+        "Deckungsregeln!J8": 0.0,
+        "Deckungsregeln!L8": 0.0
+      },
+      "expected_correct": {
+        "Deckungsregeln!I8": "OK",
+        "Deckungsregeln!J8": 1,
+        "Deckungsregeln!L8": 1
+      },
+      "expected_behavior_met": false,
+      "interpretation": "Valid input cannot turn the absent rule validator into OK: the rule remains excluded from its expected-target and missing-assignment counts.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "de-first-object-row",
+      "workbook": "IMS-Kompass-v2.6.1-Leerstart.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "Stammdaten",
+          "cell": "A35",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Stammdaten",
+          "cell": "B35",
+          "value": "Eva Stein"
+        },
+        {
+          "sheet": "Stammdaten",
+          "cell": "C35",
+          "value": "ROLE-IMS"
+        },
+        {
+          "sheet": "Stammdaten",
+          "cell": "D35",
+          "value": "Fiktive IMS-Koordination"
+        },
+        {
+          "sheet": "Stammdaten",
+          "cell": "E35",
+          "value": "Ja"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "A8",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "B8",
+          "value": "Informationssicherheitsmanagement"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "C8",
+          "value": "N27"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "D8",
+          "value": "DEMO: IMS-Steuerung, Produktions- und Testdienst sowie KI-Beschaffung mit Einkaufsagent."
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "E8",
+          "value": "DOC-MS-IS"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "F8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "G8",
+          "value": "Scope 1"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "H8",
+          "value": "Freigegeben"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "I8",
+          "value": 46023.0
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "J8",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "A25",
+          "value": "MB-001"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "B25",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "C25",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "D25",
+          "value": "In Scope"
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "E25",
+          "value": "Gemeinsamer Managementprozess ist Bestandteil des ISMS."
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "F25",
+          "value": 46023.0
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "G25",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Geltung",
+          "cell": "H25",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "A8",
+          "value": "REG-001"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "B8",
+          "value": "MS-ISMS"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "C8",
+          "value": "K-001"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "D8",
+          "value": "Managementprozess"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "E8",
+          "value": "Managementbewertungen werden für den gemeinsamen Steuerungsprozess benötigt."
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "F8",
+          "value": "Ja"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "G8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "H8",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "O8",
+          "value": "Alle Modi"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "A8",
+          "value": "DOC-MS-IS"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "B8",
+          "value": "Verfahrensfestlegung"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "C8",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "D8",
+          "value": "Test scope"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "E8",
+          "value": "v1"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "F8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "G8",
+          "value": "Freigegeben"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "H8",
+          "value": 46023
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "I8",
+          "value": 46387
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "J8",
+          "value": "Test document location"
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "K8",
+          "value": "Test scope criteria"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "A8",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "B8",
+          "value": "IMS-Steuerung"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "C8",
+          "value": "Managementprozess"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "D8",
+          "value": null
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "E8",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "F8",
+          "value": "Risiken, Ziele, Prüfungen und Entscheidungen nachvollziehbar verbinden."
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "G8",
+          "value": "Risikoeigner, Leitung und unabhängige Fachprüfung."
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "H8",
+          "value": "Leitung benötigt rechtzeitige Entscheidungen und belastbare Nachweise."
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "I8",
+          "value": "Steuerung 2"
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "J8",
+          "value": 46326.0
+        },
+        {
+          "sheet": "Objekte",
+          "cell": "Y8",
+          "value": "Produktivbetrieb"
+        }
+      ],
+      "actual": {
+        "Objekte!K8": "Betriebsmodus fehlt",
+        "Geltung!I25": "Objekteintrag prüfen",
+        "Geltung!L25": "Eintrag prüfen"
+      },
+      "expected_correct": {
+        "Objekte!K8": "OK",
+        "Geltung!I25": "OK",
+        "Geltung!L25": "In Scope"
+      },
+      "expected_behavior_met": false,
+      "interpretation": "The first prepared object row lacks a live validator, so a complete first object prevents its membership from becoming current.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "de-empty-coverage-register",
+      "workbook": "IMS-Kompass-v2.6.1-Leerstart.xlsx",
+      "kind": "functional",
+      "changes": [],
+      "actual": {
+        "Deckung!L8": "OK",
+        "Deckung!L15": "Objektmodus passt nicht"
+      },
+      "expected_correct": {
+        "Deckung!L8": null,
+        "Deckung!L15": null
+      },
+      "expected_behavior_met": false,
+      "interpretation": "Empty clean-start coverage rows retain the old demo OK/mode-mismatch labels.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "de-new-coverage-in-first-unused-row",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "Deckung",
+          "cell": "A21",
+          "value": "COV-NEW-TEST"
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "B21",
+          "value": "REG-001"
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "C21",
+          "value": "S-010"
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "D21",
+          "value": "U-001"
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "E21",
+          "value": "Lokal"
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "F21",
+          "value": "DEMO: Reviewverfahren für den bezeichneten Managementprozess."
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "G21",
+          "value": "PERSON-04"
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "H21",
+          "value": 46300.0
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "I21",
+          "value": "Reviewverfahren 2"
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "J21",
+          "value": "Steuerung 2"
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "K21",
+          "value": 46387.0
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "A8",
+          "value": null
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "B8",
+          "value": null
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "C8",
+          "value": null
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "D8",
+          "value": null
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "E8",
+          "value": null
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "F8",
+          "value": null
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "G8",
+          "value": null
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "H8",
+          "value": null
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "I8",
+          "value": null
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "J8",
+          "value": null
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "K8",
+          "value": null
+        }
+      ],
+      "actual": {
+        "Deckung!L21": "",
+        "Deckungsregeln!K8": 0
+      },
+      "expected_correct": {
+        "Deckung!L21": "OK",
+        "Deckungsregeln!K8": 1
+      },
+      "expected_behavior_met": false,
+      "interpretation": "A complete previously valid row is moved from row 8 to the first unused row 21, assigned a fresh ID, and removed from row 8. Row 21 has no validator, so a valid new assignment disappears from the valid-coverage count.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "de-duplicate-coverage-id-and-rule-target",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "Deckung",
+          "cell": "A9",
+          "value": "COV-001"
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "B9",
+          "value": "REG-001"
+        },
+        {
+          "sheet": "Deckung",
+          "cell": "C9",
+          "value": "S-010"
+        }
+      ],
+      "actual": {
+        "Deckung!L8": "OK",
+        "Deckung!L9": "OK",
+        "Deckungsregeln!K8": 2
+      },
+      "expected_correct": {
+        "Deckung!L8": {
+          "not_in": [
+            null,
+            "",
+            "OK"
+          ],
+          "meaning": "A nonblank rejection of an invalid/duplicate record"
+        },
+        "Deckung!L9": {
+          "not_in": [
+            null,
+            "",
+            "OK"
+          ],
+          "meaning": "A nonblank rejection of an invalid/duplicate record"
+        },
+        "Deckungsregeln!K8": 0
+      },
+      "expected_behavior_met": false,
+      "interpretation": "Both old coverage rows keep OK; the valid-coverages count rises to 2 for one target. Expected 0 follows the workbook's unique-ID contract, which makes both duplicate records invalid.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "de-invalid-coverage-reference",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "Deckung",
+          "cell": "D8",
+          "value": "NO-SUCH-IMPLEMENTATION"
+        }
+      ],
+      "actual": {
+        "Deckung!L8": "OK",
+        "Deckung!M8": "Referenz fehlt",
+        "Deckungsregeln!K8": 1
+      },
+      "expected_correct": {
+        "Deckung!L8": {
+          "not_in": [
+            null,
+            "",
+            "OK"
+          ],
+          "meaning": "A nonblank rejection of an invalid/duplicate record"
+        },
+        "Deckung!M8": "Referenz fehlt",
+        "Deckungsregeln!K8": 0
+      },
+      "expected_behavior_met": false,
+      "interpretation": "The current-evidence formula sees the missing implementation, but the frozen OK validation still counts the row as a valid coverage assignment.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "de-duplicate-rule-id",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "A9",
+          "value": "REG-001"
+        }
+      ],
+      "actual": {
+        "Deckungsregeln!I8": "OK",
+        "Deckungsregeln!I9": "OK",
+        "Deckungsregeln!J8": 1,
+        "Deckungsregeln!J9": 1
+      },
+      "expected_correct": {
+        "Deckungsregeln!I8": {
+          "not_in": [
+            null,
+            "",
+            "OK"
+          ],
+          "meaning": "A nonblank rejection of an invalid/duplicate record"
+        },
+        "Deckungsregeln!I9": {
+          "not_in": [
+            null,
+            "",
+            "OK"
+          ],
+          "meaning": "A nonblank rejection of an invalid/duplicate record"
+        },
+        "Deckungsregeln!J8": 0,
+        "Deckungsregeln!J9": 0
+      },
+      "expected_behavior_met": false,
+      "interpretation": "Both duplicate rule IDs retain OK and each continues counting its target population.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "de-baseline-zero-versus-blank",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "control",
+      "changes": [],
+      "actual": {
+        "Ziele!P10": "Zielwert erreicht",
+        "Ziele!P11": "Messung offen"
+      },
+      "expected_correct": {
+        "Ziele!P10": "Zielwert erreicht",
+        "Ziele!P11": "Messung offen"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Existing measured zero remains distinct from a missing measurement.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "de-report-N42-selection",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Normsicht",
+          "cell": "B4",
+          "value": "MS-AIMS"
+        }
+      ],
+      "actual": {
+        "Bericht!C4": "N42",
+        "Bericht!C10": 40.0
+      },
+      "expected_correct": {
+        "Bericht!C4": "N42",
+        "Bericht!C10": 40
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Changing the standard selector counts 38 N42 reference controls plus two sample internal requirements.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "de-production-only-coverage",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "O11",
+          "value": "Produktivbetrieb"
+        }
+      ],
+      "actual": {
+        "Deckungsregeln!J11": 1,
+        "Deckungsregeln!L11": 0.0,
+        "Sollabdeckung!G9": "Ja",
+        "Sollabdeckung!G10": "Nein"
+      },
+      "expected_correct": {
+        "Deckungsregeln!J11": 1,
+        "Deckungsregeln!L11": 0,
+        "Sollabdeckung!G9": "Ja",
+        "Sollabdeckung!G10": "Nein"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "A production-only REG-004 selects S-020 and excludes the draft test service.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "de-inactive-coverage-rule",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Deckungsregeln",
+          "cell": "F11",
+          "value": "Nein"
+        }
+      ],
+      "actual": {
+        "Deckungsregeln!J11": 0.0,
+        "Sollabdeckung!G9": "Nein",
+        "Sollabdeckung!G10": "Nein"
+      },
+      "expected_correct": {
+        "Deckungsregeln!J11": 0,
+        "Sollabdeckung!G9": "Nein",
+        "Sollabdeckung!G10": "Nein"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "An inactive REG-004 contributes no expected targets in either language.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "de-governance-valid-reference-set",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Informationsführung",
+          "cell": "D9",
+          "value": "In dieser Mappe"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F23",
+          "value": 46330
+        }
+      ],
+      "actual": {
+        "Informationsführung!L9": "Festgelegt"
+      },
+      "expected_correct": {
+        "Informationsführung!L9": "Festgelegt"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Unique reference and confirmation-date validation.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "de-governance-invalid-responsible-id",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Informationsführung",
+          "cell": "D9",
+          "value": "In dieser Mappe"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F16",
+          "value": "MISSING"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F23",
+          "value": 46330
+        }
+      ],
+      "actual": {
+        "Informationsführung!L9": "Verantwortung prüfen"
+      },
+      "expected_correct": {
+        "Informationsführung!L9": "Verantwortung prüfen"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Unique reference and confirmation-date validation.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "de-governance-invalid-method-id",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Informationsführung",
+          "cell": "D9",
+          "value": "In dieser Mappe"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C19",
+          "value": "MISSING"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F23",
+          "value": 46330
+        }
+      ],
+      "actual": {
+        "Informationsführung!L9": "Risikomethode prüfen"
+      },
+      "expected_correct": {
+        "Informationsführung!L9": "Risikomethode prüfen"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Unique reference and confirmation-date validation.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "de-governance-invalid-mandate-id",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Informationsführung",
+          "cell": "D9",
+          "value": "In dieser Mappe"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C20",
+          "value": "MISSING"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F23",
+          "value": 46330
+        }
+      ],
+      "actual": {
+        "Informationsführung!L9": "Mandat prüfen"
+      },
+      "expected_correct": {
+        "Informationsführung!L9": "Mandat prüfen"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Unique reference and confirmation-date validation.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "de-governance-invalid-evidence-id",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Informationsführung",
+          "cell": "D9",
+          "value": "In dieser Mappe"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C22",
+          "value": "MISSING"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F23",
+          "value": 46330
+        }
+      ],
+      "actual": {
+        "Informationsführung!L9": "Belegdokument prüfen"
+      },
+      "expected_correct": {
+        "Informationsführung!L9": "Belegdokument prüfen"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Unique reference and confirmation-date validation.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "de-governance-invalid-confirmer-id",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Informationsführung",
+          "cell": "D9",
+          "value": "In dieser Mappe"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C23",
+          "value": "MISSING"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F23",
+          "value": 46330
+        }
+      ],
+      "actual": {
+        "Informationsführung!L9": "Bestätigende Person prüfen"
+      },
+      "expected_correct": {
+        "Informationsführung!L9": "Bestätigende Person prüfen"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Unique reference and confirmation-date validation.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "de-governance-duplicate-responsible-id",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Informationsführung",
+          "cell": "D9",
+          "value": "In dieser Mappe"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F23",
+          "value": 46330
+        },
+        {
+          "sheet": "Stammdaten",
+          "cell": "A41",
+          "value": "PERSON-01"
+        }
+      ],
+      "actual": {
+        "Informationsführung!L9": "Verantwortung prüfen"
+      },
+      "expected_correct": {
+        "Informationsführung!L9": "Verantwortung prüfen"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Unique reference and confirmation-date validation.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "de-governance-expired-confirmation",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "control",
+      "changes": [
+        {
+          "sheet": "Informationsführung",
+          "cell": "D9",
+          "value": "In dieser Mappe"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F23",
+          "value": 46302
+        }
+      ],
+      "actual": {
+        "Informationsführung!L9": "Überprüfung fällig"
+      },
+      "expected_correct": {
+        "Informationsführung!L9": "Überprüfung fällig"
+      },
+      "expected_behavior_met": true,
+      "interpretation": "Unique reference and confirmation-date validation.",
+      "evaluator_errors": [],
+      "known_defect": false
+    },
+    {
+      "name": "de-governance-invalid-linked-method",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "Informationsführung",
+          "cell": "D9",
+          "value": "In dieser Mappe"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F23",
+          "value": 46330
+        },
+        {
+          "sheet": "Stammdaten",
+          "cell": "E82",
+          "value": 0
+        }
+      ],
+      "actual": {
+        "Informationsführung!L9": "Festgelegt",
+        "Stammdaten!M82": "Methodengrenzen prüfen"
+      },
+      "expected_correct": {
+        "Informationsführung!L9": {
+          "not_in": [
+            "Festgelegt"
+          ],
+          "meaning": "An invalid linked prerequisite must not produce a completed definition."
+        },
+        "Stammdaten!M82": "Methodengrenzen prüfen"
+      },
+      "expected_behavior_met": false,
+      "interpretation": "The referenced record is invalid or unreleased, but the definition remains complete because only its ID is checked.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "de-governance-invalid-linked-mandate",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "Informationsführung",
+          "cell": "D9",
+          "value": "In dieser Mappe"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F23",
+          "value": 46330
+        },
+        {
+          "sheet": "Stammdaten",
+          "cell": "B99",
+          "value": "MISSING"
+        }
+      ],
+      "actual": {
+        "Informationsführung!L9": "Festgelegt",
+        "Stammdaten!J99": "Personen-ID prüfen"
+      },
+      "expected_correct": {
+        "Informationsführung!L9": {
+          "not_in": [
+            "Festgelegt"
+          ],
+          "meaning": "An invalid linked prerequisite must not produce a completed definition."
+        },
+        "Stammdaten!J99": "Personen-ID prüfen"
+      },
+      "expected_behavior_met": false,
+      "interpretation": "The referenced record is invalid or unreleased, but the definition remains complete because only its ID is checked.",
+      "evaluator_errors": [],
+      "known_defect": true
+    },
+    {
+      "name": "de-governance-unreleased-linked-evidence",
+      "workbook": "IMS-Kompass-v2.6.1.xlsx",
+      "kind": "functional",
+      "changes": [
+        {
+          "sheet": "Informationsführung",
+          "cell": "D9",
+          "value": "In dieser Mappe"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F16",
+          "value": "PERSON-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C19",
+          "value": "METHOD-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C20",
+          "value": "AUTH-01"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C22",
+          "value": "DOC-METH"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "C23",
+          "value": "PERSON-06"
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "H22",
+          "value": 46302
+        },
+        {
+          "sheet": "Informationsführung",
+          "cell": "F23",
+          "value": 46330
+        },
+        {
+          "sheet": "Dokumente",
+          "cell": "G8",
+          "value": "Entwurf"
+        }
+      ],
+      "actual": {
+        "Informationsführung!L9": "Festgelegt",
+        "Dokumente!M8": "Nicht freigegeben"
+      },
+      "expected_correct": {
+        "Informationsführung!L9": {
+          "not_in": [
+            "Festgelegt"
+          ],
+          "meaning": "An invalid linked prerequisite must not produce a completed definition."
+        },
+        "Dokumente!M8": "Nicht freigegeben"
+      },
+      "expected_behavior_met": false,
+      "interpretation": "The referenced record is invalid or unreleased, but the definition remains complete because only its ID is checked.",
+      "evaluator_errors": [],
+      "known_defect": true
+    }
+  ],
+  "behavior_failed": 20,
+  "known_defect_failures": 20
+}

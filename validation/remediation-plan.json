@@ -1,0 +1,111 @@
+{
+  "package_version": "0.1.0-review.2",
+  "review_date": "2026-10-23",
+  "applied": false,
+  "scope": "Proposed author tasks for the four preserved v2.6.1 sources. This is not an executable workbook patch. The v2.6 literal patch is historical.",
+  "issues": [
+    {
+      "id": "IMS-013",
+      "priority": "blocker",
+      "ranges": {
+        "EN": "CoverageRules!I8:I157",
+        "DE": "Deckungsregeln!I8:I157"
+      },
+      "current": "150 prepared validation outputs contain no formulas in every edition.",
+      "proposal": "Restore live unique-ID, reference, selection and applicability validation across the full range.",
+      "acceptance": [
+        "Valid first rule with one current member: I8=OK, J8=1, L8=1 before coverage.",
+        "Duplicate rule IDs are rejected and do not count targets.",
+        "First, later and last prepared rows behave consistently."
+      ]
+    },
+    {
+      "id": "IMS-014",
+      "priority": "blocker",
+      "ranges": {
+        "EN": "Coverage!L8:L1007",
+        "DE": "Deckung!L8:L1007"
+      },
+      "current": "1000 prepared validation outputs are static values; thirteen old demo labels remain in clean-start.",
+      "proposal": "Restore live record/reference/rule-target/mode/version/transfer validation; empty rows return blank.",
+      "acceptance": [
+        "A valid row moved from row8 to row21 still counts once.",
+        "Duplicate IDs and rule-target combinations do not count as valid.",
+        "Missing implementation reference is rejected; empty clean rows have no stored OK."
+      ]
+    },
+    {
+      "id": "IMS-005",
+      "priority": "blocker",
+      "ranges": {
+        "EN": "Objects!K8",
+        "DE": "Objekte!K8"
+      },
+      "current": "English is blank; German is a fixed Betriebsmodus fehlt string. Neither is a formula.",
+      "proposal": "Restore consistent first-row validation and separately define operating-mode requirements for each object type.",
+      "acceptance": [
+        "Identical complete inputs at rows8,9,82 validate consistently.",
+        "A valid first object produces a current membership.",
+        "Empty first row returns blank; invalid IDs, owners and parents are rejected."
+      ]
+    },
+    {
+      "id": "IMS-008",
+      "priority": "high",
+      "ranges": {
+        "EN": "Governance!L9:L10",
+        "DE": "Informationsführung!L9:L10"
+      },
+      "current": "Unique referenced IDs are now checked, but invalid linked method/mandate state and unreleased evidence can yield a completed definition.",
+      "proposal": "Preserve the new ID checks and validate the relevant linked status, authority/context and evidence-release requirements.",
+      "acceptance": [
+        "Keep all16 passing reference/date scenarios.",
+        "Reject all6 linked-state failures in both languages.",
+        "Verify the second governance block and downstream independent decision checks."
+      ]
+    },
+    {
+      "id": "IMS-006",
+      "priority": "high",
+      "ranges": {
+        "EN": [
+          "Documents!A23:K23",
+          "MasterData!L82",
+          "Governance!B11"
+        ],
+        "DE": [
+          "Dokumente!A23:K23",
+          "Stammdaten!L82",
+          "Informationsführung!B11"
+        ]
+      },
+      "current": "Operational reset is improved, but DOC-MAP references cleared S-010/PERSON-01, the example method references removed DOC-METH, and MS-AIMS remains a display value.",
+      "proposal": "Configure or explicitly mark retained template dependencies and remove stale calculated labels after restoring validators.",
+      "acceptance": [
+        "All retained references resolve or are explicit unconfigured prerequisites.",
+        "First-record walkthrough succeeds without copying status values.",
+        "193 catalogue entries and all172 validation definitions are preserved."
+      ]
+    },
+    {
+      "id": "IMS-007",
+      "priority": "medium",
+      "ranges": {
+        "EN": [
+          "ReleaseChecks!C14:E14",
+          "ReleaseChecks!D15"
+        ],
+        "DE": [
+          "Freigabetests!C14:E14",
+          "Freigabetests!D15"
+        ]
+      },
+      "current": "Zero/blank guidance still names Z-001/Z-00X and P8; clean editions still expect24 tasks.",
+      "proposal": "Use Z-002/P10 and Z-004/P11 in the demos and provide explicit starting-edition tests.",
+      "acceptance": [
+        "Demo reset shows24 tasks; empty clean-start shows0.",
+        "Embedded procedures and targets match the edition."
+      ]
+    }
+  ]
+}

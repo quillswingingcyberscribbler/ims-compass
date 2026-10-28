@@ -1,0 +1,850 @@
+{
+  "en": {
+    "regions": [
+      {
+        "sheet": "Actions",
+        "id_range": "A8:A207",
+        "demo_records": 8,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Checks",
+        "id_range": "A8:A507",
+        "demo_records": 12,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Implementations",
+        "id_range": "A8:A207",
+        "demo_records": 11,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Risks",
+        "id_range": "A8:A127",
+        "demo_records": 5,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Safeguards",
+        "id_range": "A8:A157",
+        "demo_records": 2,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Decisions",
+        "id_range": "A8:A157",
+        "demo_records": 2,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Issues",
+        "id_range": "A8:A207",
+        "demo_records": 7,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Obligations",
+        "id_range": "A8:A127",
+        "demo_records": 2,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Objectives",
+        "id_range": "A8:A87",
+        "demo_records": 4,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Assessments",
+        "id_range": "A8:A307",
+        "demo_records": 14,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Coverage",
+        "id_range": "A8:A1007",
+        "demo_records": 13,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "CoverageRules",
+        "id_range": "A8:A157",
+        "demo_records": 13,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Scope",
+        "id_range": "A8:A17",
+        "demo_records": 2,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Scope",
+        "id_range": "A25:A174",
+        "demo_records": 10,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Objects",
+        "id_range": "A8:A82",
+        "demo_records": 6,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Mappings",
+        "id_range": "A8:A407",
+        "demo_records": 13,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "MasterData",
+        "id_range": "A35:A74",
+        "demo_records": 6,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "MasterData",
+        "id_range": "A99:A158",
+        "demo_records": 3,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Governance",
+        "id_range": "B48:B147",
+        "demo_records": 0,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Controls",
+        "id_range": "A8:A157",
+        "demo_records": 10,
+        "clean_records": 5,
+        "retained_ids": [
+          "K-001",
+          "K-002",
+          "K-003",
+          "K-008",
+          "K-009"
+        ]
+      },
+      {
+        "sheet": "Requirements",
+        "id_range": "A8:A307",
+        "demo_records": 195,
+        "clean_records": 193,
+        "retained_ids": "See retained reference catalogue in workbook"
+      },
+      {
+        "sheet": "MasterData",
+        "id_range": "A8:A27",
+        "demo_records": 6,
+        "clean_records": 6,
+        "retained_ids": [
+          "ROLE-IMS",
+          "ROLE-PROC",
+          "ROLE-ENG",
+          "ROLE-ASSURE",
+          "ROLE-SVC",
+          "ROLE-BOARD"
+        ]
+      },
+      {
+        "sheet": "MasterData",
+        "id_range": "A82:A91",
+        "demo_records": 1,
+        "clean_records": 1,
+        "retained_ids": [
+          "METHOD-01"
+        ]
+      },
+      {
+        "sheet": "MasterData",
+        "id_range": "A166:A185",
+        "demo_records": 15,
+        "clean_records": 15,
+        "retained_ids": [
+          "SK-11",
+          "SK-12",
+          "SK-13",
+          "SK-14",
+          "SK-15",
+          "SK-21",
+          "SK-22",
+          "SK-23",
+          "SK-24",
+          "SK-25",
+          "SK-31",
+          "SK-32",
+          "SK-33",
+          "SK-34",
+          "SK-35"
+        ]
+      },
+      {
+        "sheet": "Documents",
+        "id_range": "A8:A507",
+        "demo_records": 16,
+        "clean_records": 1,
+        "retained_ids": [
+          "DOC-MAP"
+        ]
+      },
+      {
+        "sheet": "ChangeLog",
+        "id_range": "A8:A507",
+        "demo_records": 11,
+        "clean_records": 9,
+        "retained_ids": [
+          "CH-UX-001",
+          "CH-ARCH-001",
+          "CH-ARCH-002",
+          "CH-ARCH-003",
+          "CH-ARCH-004",
+          "CH-ARCH-005",
+          "CH-ARCH-006",
+          "CH-ARCH-007",
+          "CH-ARCH-008"
+        ]
+      }
+    ],
+    "cleared_fictitious_person_name_count": 6,
+    "remaining_person_name_hits_in_xml": [],
+    "data_validation_comparison": [
+      {
+        "sheet": "Setup",
+        "count": 1,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Instructions",
+        "count": 0,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "StatusGlossary",
+        "count": 0,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "ISMS-Foundations",
+        "count": 5,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "AI-Supplements",
+        "count": 36,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Governance",
+        "count": 7,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Home",
+        "count": 5,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "JobAid",
+        "count": 1,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "ReleaseChecks",
+        "count": 0,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Overview",
+        "count": 0,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Report",
+        "count": 0,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Actions",
+        "count": 13,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Checks",
+        "count": 9,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Implementations",
+        "count": 5,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Risks",
+        "count": 7,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Safeguards",
+        "count": 2,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Decisions",
+        "count": 10,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Issues",
+        "count": 10,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Obligations",
+        "count": 8,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Objectives",
+        "count": 4,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "StandardView",
+        "count": 1,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "TargetCoverage",
+        "count": 1,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Assessments",
+        "count": 8,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Coverage",
+        "count": 5,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "CoverageRules",
+        "count": 6,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Scope",
+        "count": 7,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Objects",
+        "count": 4,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Controls",
+        "count": 2,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Requirements",
+        "count": 1,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Mappings",
+        "count": 4,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "MasterData",
+        "count": 7,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Documents",
+        "count": 3,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "ChangeLog",
+        "count": 0,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "TaskBase",
+        "count": 0,
+        "exact_xml_equal": true
+      }
+    ],
+    "defined_names_equal": true,
+    "clean_review_count_components": [
+      {
+        "sheet": "Coverage",
+        "cell": "L15",
+        "value": "Object mode mismatch"
+      },
+      {
+        "sheet": "MasterData",
+        "cell": "M82",
+        "value": "Review method document"
+      },
+      {
+        "sheet": "Documents",
+        "cell": "L23",
+        "value": "Review reference object"
+      }
+    ],
+    "clean_overview_review_count": "3"
+  },
+  "de": {
+    "regions": [
+      {
+        "sheet": "Maßnahmen",
+        "id_range": "A8:A207",
+        "demo_records": 8,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Prüfungen",
+        "id_range": "A8:A507",
+        "demo_records": 12,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Umsetzungen",
+        "id_range": "A8:A207",
+        "demo_records": 11,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Risiken",
+        "id_range": "A8:A127",
+        "demo_records": 5,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Sicherungen",
+        "id_range": "A8:A157",
+        "demo_records": 2,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Entscheidungen",
+        "id_range": "A8:A157",
+        "demo_records": 2,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Vorgänge",
+        "id_range": "A8:A207",
+        "demo_records": 7,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Betriebspflichten",
+        "id_range": "A8:A127",
+        "demo_records": 2,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Ziele",
+        "id_range": "A8:A87",
+        "demo_records": 4,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Beurteilungen",
+        "id_range": "A8:A307",
+        "demo_records": 14,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Deckung",
+        "id_range": "A8:A1007",
+        "demo_records": 13,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Deckungsregeln",
+        "id_range": "A8:A157",
+        "demo_records": 13,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Geltung",
+        "id_range": "A8:A17",
+        "demo_records": 2,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Geltung",
+        "id_range": "A25:A174",
+        "demo_records": 10,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Objekte",
+        "id_range": "A8:A82",
+        "demo_records": 6,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Normbezug",
+        "id_range": "A8:A407",
+        "demo_records": 13,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Stammdaten",
+        "id_range": "A35:A74",
+        "demo_records": 6,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Stammdaten",
+        "id_range": "A99:A158",
+        "demo_records": 3,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Informationsführung",
+        "id_range": "B48:B147",
+        "demo_records": 0,
+        "clean_records": 0,
+        "retained_ids": []
+      },
+      {
+        "sheet": "Kontrollen",
+        "id_range": "A8:A157",
+        "demo_records": 10,
+        "clean_records": 5,
+        "retained_ids": [
+          "K-001",
+          "K-002",
+          "K-003",
+          "K-008",
+          "K-009"
+        ]
+      },
+      {
+        "sheet": "Anforderungen",
+        "id_range": "A8:A307",
+        "demo_records": 195,
+        "clean_records": 193,
+        "retained_ids": "See retained reference catalogue in workbook"
+      },
+      {
+        "sheet": "Stammdaten",
+        "id_range": "A8:A27",
+        "demo_records": 6,
+        "clean_records": 6,
+        "retained_ids": [
+          "ROLE-IMS",
+          "ROLE-PROC",
+          "ROLE-ENG",
+          "ROLE-ASSURE",
+          "ROLE-SVC",
+          "ROLE-BOARD"
+        ]
+      },
+      {
+        "sheet": "Stammdaten",
+        "id_range": "A82:A91",
+        "demo_records": 1,
+        "clean_records": 1,
+        "retained_ids": [
+          "METHOD-01"
+        ]
+      },
+      {
+        "sheet": "Stammdaten",
+        "id_range": "A166:A185",
+        "demo_records": 15,
+        "clean_records": 15,
+        "retained_ids": [
+          "SK-11",
+          "SK-12",
+          "SK-13",
+          "SK-14",
+          "SK-15",
+          "SK-21",
+          "SK-22",
+          "SK-23",
+          "SK-24",
+          "SK-25",
+          "SK-31",
+          "SK-32",
+          "SK-33",
+          "SK-34",
+          "SK-35"
+        ]
+      },
+      {
+        "sheet": "Dokumente",
+        "id_range": "A8:A507",
+        "demo_records": 16,
+        "clean_records": 1,
+        "retained_ids": [
+          "DOC-MAP"
+        ]
+      },
+      {
+        "sheet": "Änderungen",
+        "id_range": "A8:A507",
+        "demo_records": 10,
+        "clean_records": 8,
+        "retained_ids": [
+          "CH-UX-001",
+          "CH-ARCH-001",
+          "CH-ARCH-002",
+          "CH-ARCH-004",
+          "CH-ARCH-005",
+          "CH-ARCH-006",
+          "CH-ARCH-007",
+          "CH-ARCH-008"
+        ]
+      }
+    ],
+    "cleared_fictitious_person_name_count": 6,
+    "remaining_person_name_hits_in_xml": [],
+    "data_validation_comparison": [
+      {
+        "sheet": "Aufbau",
+        "count": 1,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Anleitung",
+        "count": 0,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Statusglossar",
+        "count": 0,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "ISMS-Grundlagen",
+        "count": 5,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "KI-Ergänzungen",
+        "count": 36,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Informationsführung",
+        "count": 7,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Start",
+        "count": 5,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Arbeitshilfe",
+        "count": 1,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Freigabetests",
+        "count": 0,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Übersicht",
+        "count": 0,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Bericht",
+        "count": 0,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Maßnahmen",
+        "count": 13,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Prüfungen",
+        "count": 9,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Umsetzungen",
+        "count": 5,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Risiken",
+        "count": 7,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Sicherungen",
+        "count": 2,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Entscheidungen",
+        "count": 10,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Vorgänge",
+        "count": 10,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Betriebspflichten",
+        "count": 8,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Ziele",
+        "count": 4,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Normsicht",
+        "count": 1,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Sollabdeckung",
+        "count": 1,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Beurteilungen",
+        "count": 8,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Deckung",
+        "count": 5,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Deckungsregeln",
+        "count": 6,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Geltung",
+        "count": 7,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Objekte",
+        "count": 4,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Kontrollen",
+        "count": 2,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Anforderungen",
+        "count": 1,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Normbezug",
+        "count": 4,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Stammdaten",
+        "count": 7,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Dokumente",
+        "count": 3,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Änderungen",
+        "count": 0,
+        "exact_xml_equal": true
+      },
+      {
+        "sheet": "Aufgabenbasis",
+        "count": 0,
+        "exact_xml_equal": true
+      }
+    ],
+    "defined_names_equal": true,
+    "clean_review_count_components": [
+      {
+        "sheet": "Deckung",
+        "cell": "L15",
+        "value": "Objektmodus passt nicht"
+      },
+      {
+        "sheet": "Stammdaten",
+        "cell": "M82",
+        "value": "Methodendokument prüfen"
+      },
+      {
+        "sheet": "Dokumente",
+        "cell": "L23",
+        "value": "Bezugsobjekt prüfen"
+      },
+      {
+        "sheet": "Objekte",
+        "cell": "K8",
+        "value": "Betriebsmodus fehlt"
+      }
+    ],
+    "clean_overview_review_count": "4"
+  }
+}

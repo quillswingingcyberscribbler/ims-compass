@@ -1,0 +1,20 @@
+{
+  "package_version": "0.1.0-review.1",
+  "review_date": "2026-10-22",
+  "files": [
+    {
+      "path": "workbooks/IMS-Compass-v2.6-EN.xlsx",
+      "source_filename": "IMS-Compass-v2.6-EN.xlsx",
+      "sha256": "20ea1613ed602d832cf1e5e46b8a3b015540f0290b37a79ffbdf24945f63f663",
+      "size_bytes": 3766778,
+      "content_change": "none; original source bytes retained"
+    },
+    {
+      "path": "workbooks/IMS-Compass-v2.6-Clean-Start.xlsx",
+      "source_filename": "IMS-Compass-v2.6-Clean-Start.xlsx",
+      "sha256": "cfd325b014c662625277b7bcfabb8c669cb3d9cb9d13aeee3629c090152694bd",
+      "size_bytes": 3767526,
+      "content_change": "none; original source bytes retained"
+    }
+  ]
+}
